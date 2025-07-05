@@ -1,0 +1,415 @@
+/*
+ * This design is mobile-first and uses CSS Grid/Flexbox for layout.
+ * - Dark theme with gradient background
+ * - Responsive design for all screen sizes
+ * - Custom file input styling
+ * - Interactive hover effects
+ * - Status message styling
+ * - Mobile-optimized table layout
+ */
+
+/* CSS Reset - Remove default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base body styling with dark theme */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #e2e8f0; /* Light gray text for dark background */
+    background: linear-gradient(135deg, #4a4b4c 0%, #252426 100%); /* Dark gradient background */
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Main container for responsive layout */
+.container {
+    max-width: 1200px; /* Maximum width for large screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Consistent padding */
+}
+
+/* Header section with title and description */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9; /* Slightly transparent for hierarchy */
+}
+
+/* Common styling for all sections */
+section {
+    background: #1a202c; /* Dark section background */
+    border-radius: 12px; /* Rounded corners */
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border: 1px solid #2d3748; /* Subtle border */
+}
+
+section h2 {
+    color: #e2e8f0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Upload section with blue accent border */
+.upload-section {
+    border-left: 4px solid #4299e1; /* Blue accent line */
+}
+
+/* Custom file input wrapper for styling */
+.file-input-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Hide the actual file input */
+.file-input-wrapper input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Custom styled label that acts as the visible file input */
+.file-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border: 2px dashed #4a5568; /* Dashed border for drag-and-drop feel */
+    border-radius: 8px;
+    background: #2d3748;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for file input */
+.file-label:hover {
+    border-color: #4299e1; /* Blue border on hover */
+    background: #2a4365;
+}
+
+.file-text {
+    color: #e2e8f0;
+    font-weight: 500;
+}
+
+/* Browse button styling */
+.file-button {
+    background: #4299e1;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.file-button:hover {
+    background: #3182ce; /* Darker blue on hover */
+}
+
+/* Upload button styling */
+.upload-btn {
+    background: #48bb78; /* Green for success action */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.upload-btn:hover {
+    background: #38a169; /* Darker green on hover */
+}
+
+/* Base status message styling */
+.status-message {
+    margin-top: 15px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    display: none; /* Hidden by default */
+}
+
+/* Success message styling */
+.status-message.success {
+    background: #c6f6d5;
+    color: #22543d;
+    border: 1px solid #9ae6b4;
+    display: block;
+}
+
+/* Error message styling */
+.status-message.error {
+    background: #fed7d7;
+    color: #742a2a;
+    border: 1px solid #feb2b2;
+    display: block;
+}
+
+/* Info message styling */
+.status-message.info {
+    background: #bee3f8;
+    color: #2a4365;
+    border: 1px solid #90cdf4;
+    display: block;
+}
+
+/* Data status message styling */
+.data-status {
+    margin-top: 15px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    background: #e6fffa;
+    color: #234e52;
+    border: 1px solid #81e6d9;
+    display: none;
+}
+
+/* Search section with green accent border */
+.search-section {
+    border-left: 4px solid #48bb78; /* Green accent line */
+}
+
+/* Search input wrapper for layout */
+.search-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Search button styling */
+.search-btn {
+    background: #4299e1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.search-btn:hover {
+    background: #3182ce;
+}
+
+/* Search input styling */
+#searchInput {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #4a5568;
+    border-radius: 6px;
+    background: #2d3748;
+    color: #e2e8f0;
+    font-size: 1rem;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+/* Clear button styling */
+.clear-btn {
+    background: #718096;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.clear-btn:hover {
+    background: #4a5568;
+}
+
+/* Base search status styling */
+.search-status {
+    margin-top: 15px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    display: none; /* Hidden by default */
+}
+
+/* Success search status */
+.search-status.success {
+    background: #c6f6d5;
+    color: #22543d;
+    border: 1px solid #9ae6b4;
+    display: block;
+}
+
+/* Warning search status */
+.search-status.warning {
+    background: #fef5e7;
+    color: #744210;
+    border: 1px solid #fbd38d;
+    display: block;
+}
+
+/* Error search status */
+.search-status.error {
+    background: #fed7d7;
+    color: #742a2a;
+    border: 1px solid #feb2b2;
+    display: block;
+}
+
+/* Info search status */
+.search-status.info {
+    background: #bee3f8;
+    color: #2a4365;
+    border: 1px solid #90cdf4;
+    display: block;
+}
+
+/* Schedule section with purple accent border */
+.schedule-section {
+    border-left: 4px solid #9f7aea; /* Purple accent line */
+}
+
+/* Exam count display */
+.exam-count {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+/* Table container for responsive design */
+.table-container {
+    overflow-x: auto; /* Horizontal scroll on small screens */
+}
+
+/* Main exam table styling */
+.exam-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #2d3748;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header styling */
+.exam-table th {
+    background: #4a5568;
+    color: #e2e8f0;
+    padding: 15px 12px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #2d3748;
+}
+
+/* Table cell styling */
+.exam-table td {
+    padding: 12px;
+    border-bottom: 1px solid #4a5568;
+    color: #e2e8f0;
+}
+
+/* Hover effect for table rows */
+.exam-table tbody tr:hover {
+    background: #4a5568;
+}
+
+/* Remove border from last row */
+.exam-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Styling for when no exams are available */
+.no-exams {
+    text-align: center;
+    padding: 40px 20px;
+    color: #a0aec0;
+}
+
+.no-exams p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Tablet and smaller desktop screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+    
+    header h1 {
+        font-size: 2rem; /* Smaller title on mobile */
+    }
+    
+    section {
+        padding: 20px; /* Reduce section padding */
+    }
+    
+    .search-wrapper {
+        flex-direction: column; /* Stack search elements vertically */
+        gap: 10px;
+    }
+    
+    .exam-table {
+        font-size: 0.9rem; /* Smaller font for mobile */
+    }
+    
+    .exam-table th,
+    .exam-table td {
+        padding: 8px 6px; /* Reduce cell padding */
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem; /* Even smaller title on phones */
+    }
+    
+    .file-label {
+        flex-direction: column; /* Stack file input elements */
+        gap: 10px;
+    }
+    
+    .exam-table th,
+    .exam-table td {
+        padding: 6px 4px; /* Minimal padding on phones */
+        font-size: 0.8rem; /* Smaller font */
+    }
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    color: #a0aec0;
+    border-top: 1px solid #2d3748;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+} 

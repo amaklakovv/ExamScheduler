@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Exam Schedule</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Main container for the entire application -->
+    <div class="container">
+        <!-- Header section with title and description -->
+        <header>
+            <h1>📚 Exams</h1>
+            <p>Upload the official exam timetable here</p>
+        </header>
+
+        <!-- Admin Upload Section - Only visible to administrators -->
+        <section class="upload-section">
+            <h2>Admin: Upload Exam Schedule</h2>
+            <!-- File upload form with custom styling -->
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="file-input-wrapper">
+                    <!-- Hidden file input for actual file selection -->
+                    <input type="file" id="csvFile" name="file" accept=".csv,.xlsx" required>
+                    <!-- Custom styled label that acts as the visible file input -->
+                    <label for="csvFile" class="file-label">
+                        <span class="file-text">Choose CSV or Excel file...</span>
+                        <span class="file-button">Browse</span>
+                    </label>
+                </div>
+                <button type="submit" class="upload-btn">Upload Schedule</button>
+            </form>
+            <!-- Status messages for upload feedback -->
+            <div id="uploadStatus" class="status-message"></div>
+            <div id="dataStatus" class="data-status"></div>
+        </section>
+
+        <!-- Search Section - Available to all users -->
+        <section class="search-section">
+            <h2>Search Exams</h2>
+            <div class="search-wrapper">
+                <!-- Search input with real-time functionality -->
+                <input type="text" id="searchInput" placeholder="Search by exam name...">
+                <button id="searchBtn" class="search-btn">Search</button>
+                <button id="clearSearch" class="clear-btn">Clear</button>
+            </div>
+            <!-- Search status messages -->
+            <div id="searchStatus" class="search-status"></div>
+        </section>
+
+        <!-- Exam Schedule Display Section -->
+        <section class="schedule-section">
+            <h2>Exam Schedule</h2>
+            <!-- Exam count display -->
+            <div id="examCount" class="exam-count"></div>
+            
+            <!-- Table container for responsive design -->
+            <div class="table-container">
+                <table id="examTable" class="exam-table">
+                    <thead>
+                        <tr>
+                            <th>Exam</th>
+                            <th>Date</th>
+                            <th>Start Time</th>
+                            <th>Duration</th>
+                            <th>Room</th>
+                            <th>Student Split</th>
+                        </tr>
+                    </thead>
+                    <tbody id="examTableBody">
+                        <!-- Exam data will be dynamically populated here via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Message shown when no exams are available -->
+            <div id="noExams" class="no-exams">
+                <p>No exams uploaded yet. Please upload a CSV file to view the schedule.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Andrew Maklakov &copy; 2025 Exam Schedule App, Built with Flask & Python</p>
+    </footer>
+
+    <script>
+        // Update the file input label text when a file is selected
+        document.getElementById('csvFile').addEventListener('change', function(e) {
+            const fileName = e.target.files[0]?.name || 'Choose CSV file...';
+            document.querySelector('.file-text').textContent = fileName;
+        });
+        // Handle form submission for file upload
+        document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+            e.preventDefault(); // Prevent default form submission
+            
+            const formData = new FormData();
+            const fileInput = document.getElementById('csvFile');
+            const statusDiv = document.getElementById('uploadStatus');
+            
+            // Validate that a file was selected
+            if (!fileInput.files[0]) {
+                showStatus('Please select a file', 'error');
+                return;
+            }
+            
+            // Append file to FormData for upload
+            formData.append('file', fileInput.files[0]);
+            
+            try {
+                showStatus('Uploading...', 'info');
+                
+                // Send POST request to /upload endpoint
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    // Upload successful
+                    showStatus(result.message, 'success');
+                    showDataStatus(`✅ Data uploaded successfully! ${result.exam_count} exams loaded.`);
+                    loadExams(); // Refresh the exam display
+                    
+                    // Reset file input
+                    fileInput.value = '';
+                    document.querySelector('.file-text').textContent = 'Choose CSV or Excel file...';
+                } else {
+                    // Upload failed
+                    showStatus(result.error, 'error');
+                }
+            } catch (error) {
+                showStatus('Upload failed: ' + error.message, 'error');
+            }
+        });
+        // Event listeners for search functionality
+        document.getElementById('searchBtn').addEventListener('click', () => search());
+        document.getElementById('searchInput').addEventListener('input', () => search()); // Real-time search
+        document.getElementById('searchInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') search(); // Search on Enter key
+        });
+        
+        // Clear search functionality
+        document.getElementById('clearSearch').addEventListener('click', () => {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('searchStatus').style.display = 'none';
+            loadExams(); // Load all exams
+        });
+
+        // Load exams when page loads
+        document.addEventListener('DOMContentLoaded', loadExams);
+        // Perform search functionality
+        // Handles both real-time search and button-triggered search
+        async function search() {
+            const query = document.getElementById('searchInput').value.trim();
+            
+            if (query === '') {
+                // If no query, hide status and load all exams
+                document.getElementById('searchStatus').style.display = 'none';
+                loadExams();
+            } else {
+                try {
+                    // Send search request to API
+                    const response = await fetch(`/api/exams/search?q=${encodeURIComponent(query)}`);
+                    const exams = await response.json();
+                    
+                    // Display search results
+                    displayExams(exams);
+                    
+                    // Show search status message
+                    showSearchStatus(exams.length === 0 ? 
+                        `No results for "${query}"` : 
+                        `Found ${exams.length} result(s) for "${query}"`, 
+                        exams.length === 0 ? 'warning' : 'success');
+                } catch (error) {
+                    showSearchStatus('Search failed', 'error');
+                }
+            }
+        }
+
+        // Load all exams from the database
+        // Called on page load and after successful uploads
+        async function loadExams() {
+            try {
+                const response = await fetch('/api/exams');
+                const exams = await response.json();
+                displayExams(exams);
+            } catch (error) {
+                console.error('Error loading exams:', error);
+            }
+        }
+
+        // Display exams in the table
+        // Handles both showing exam data and empty state
+        // Array of exam objects to display
+        //
+        function displayExams(exams) {
+            const tableBody = document.getElementById('examTableBody');
+            const noExamsDiv = document.getElementById('noExams');
+            const examCountDiv = document.getElementById('examCount');
+            const table = document.getElementById('examTable');
+            
+            if (exams.length === 0) {
+                // No exams to display - show empty state
+                table.style.display = 'none';
+                noExamsDiv.style.display = 'block';
+                examCountDiv.textContent = '';
+                document.getElementById('dataStatus').style.display = 'none';
+            } else {
+                // Display exams in table
+                table.style.display = 'table';
+                noExamsDiv.style.display = 'none';
+                examCountDiv.textContent = `Showing ${exams.length} exam(s)`;
+                showDataStatus(`📊 ${exams.length} exams loaded`);
+                
+                // Generate HTML for each exam row
+                tableBody.innerHTML = exams.map(exam => `
+                    <tr>
+                        <td>${exam.course_code || '-'}</td>
+                        <td>${exam.exam_date || '-'}</td>
+                        <td>${exam.start_time || '-'}</td>
+                        <td>${exam.duration || '-'}</td>
+                        <td>${exam.room || '-'}</td>
+                        <td>${exam.student_split || '-'}</td>
+                    </tr>
+                `).join('');
+            }
+        }
+
+        // Show status messages for upload operations
+        // Message to display
+        // Type of message ('success', 'error', 'info')
+        
+        function showStatus(message, type) {
+            const div = document.getElementById('uploadStatus');
+            div.textContent = message;
+            div.className = `status-message ${type}`;
+            div.style.display = 'block';
+        }
+
+        // Show data status messages
+        // Message to display
+        function showDataStatus(message) {
+            const div = document.getElementById('dataStatus');
+            div.textContent = message;
+            div.style.display = 'block';
+        }
+
+        // Show search status messages
+        // Message to display
+        // Type of message ('success', 'warning', 'error')
+        function showSearchStatus(message, type) {
+            const div = document.getElementById('searchStatus');
+            div.textContent = message;
+            div.className = `search-status ${type}`;
+            div.style.display = 'block';
+        }
+    </script>
+</body>
+</html> 
