@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #e2e8f0;
+    background: linear-gradient(135deg, #4a4b4c 0%, #252426 100%); 
+    min-height: 100vh;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Styling for all sections */
+section {
+    background: #1a202c;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid #2d3748;
+}
+
+section h2 {
+    color: #e2e8f0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Search section with green accent border */
+.search-section {
+    border-left: 4px solid #48bb78;
+}
+
+/* Search input wrapper for layout */
+.search-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Search button styling */
+.search-btn {
+    background: #4299e1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.search-btn:hover {
+    background: #3182ce;
+}
+
+/* Search input styling */
+#searchInput {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #4a5568;
+    border-radius: 6px;
+    background: #2d3748;
+    color: #e2e8f0;
+    font-size: 1rem;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+/* Clear button styling */
+.clear-btn {
+    background: #718096;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.clear-btn:hover {
+    background: #4a5568;
+}
+
+/* Base search status styling */
+.search-status {
+    margin-top: 15px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    display: none;
+}
+
+/* Success search status */
+.search-status.success {
+    background: #c6f6d5;
+    color: #22543d;
+    border: 1px solid #9ae6b4;
+    display: block;
+}
+
+/* Warning search status */
+.search-status.warning {
+    background: #fef5e7;
+    color: #744210;
+    border: 1px solid #fbd38d;
+    display: block;
+}
+
+/* Error search status */
+.search-status.error {
+    background: #fed7d7;
+    color: #742a2a;
+    border: 1px solid #feb2b2;
+    display: block;
+}
+
+/* Info search status */
+.search-status.info {
+    background: #bee3f8;
+    color: #2a4365;
+    border: 1px solid #90cdf4;
+    display: block;
+}
+
+/* Schedule section with purple accent border */
+.schedule-section {
+    border-left: 4px solid #9f7aea;
+}
+
+/* Exam count display */
+.exam-count {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+/* Table container for responsive design */
+.table-container {
+    overflow-x: auto;
+}
+
+/* Main exam table styling */
+.exam-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #2d3748;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header styling */
+.exam-table th {
+    background: #4a5568;
+    color: #e2e8f0;
+    padding: 15px 12px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #2d3748;
+}
+
+/* Table cell styling */
+.exam-table td {
+    padding: 12px;
+    border-bottom: 1px solid #4a5568;
+    color: #e2e8f0;
+}
+
+/* Hover effect for table rows */
+.exam-table tbody tr:hover {
+    background: #4a5568;
+}
+
+/* Remove border from last row */
+.exam-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Styling for when no exams are available */
+.no-exams {
+    text-align: center;
+    padding: 40px 20px;
+    color: #a0aec0;
+}
+
+.no-exams p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Tablet and smaller desktop screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    .search-wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .exam-table {
+        font-size: 0.9rem;
+    }
+    
+    .exam-table th,
+    .exam-table td {
+        padding: 8px 6px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .exam-table th,
+    .exam-table td {
+        padding: 6px 4px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    color: #a0aec0;
+    border-top: 1px solid #2d3748;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+} 

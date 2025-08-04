@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Exam Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Exams</h1>
+            <p>Search your exam schedule</p>
+        </header>
+
+        <section class="search-section">
+            <h2>Search Exams</h2>
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Search by course code (e.g., AIML231)...">
+                <button id="searchBtn" class="search-btn">Search</button>
+                <button id="clearSearch" class="clear-btn">Clear</button>
+            </div>
+            <div id="searchStatus" class="search-status"></div>
+        </section>
+
+        <section class="schedule-section">
+            <h2>Exam Schedule</h2>
+            <div id="examCount" class="exam-count"></div>
+            
+            <div class="table-container">
+                <table id="examTable" class="exam-table">
+                    <thead>
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Date</th>
+                            <th>Start Time</th>
+                            <th>Duration</th>
+                            <th>Room</th>
+                            <th>Student Split</th>
+                        </tr>
+                    </thead>
+                    <tbody id="examTableBody">
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id="noExams" class="no-exams">
+                <p>No exams available yet. Please check back later.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Andrew Maklakov &copy; 2025 Exam Schedule App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
