@@ -25,7 +25,7 @@ At my university, the exam timetables are typically published as large Excel fil
 
 ## University Integration
 
-This project is currently specific to my university **Victoria University of Wellington VUW**. If you'd like integration for other universities or schools, feel free to reach out! The Excel parsing script can be adapted for different formats.
+This project is currently specific to the Victoria University of Wellington exam timetable spreadsheet. If you'd like integration for other universities or schools, feel free to reach out! The Excel parsing script can be adapted for different formats.
 
 ## Technical
 
@@ -35,7 +35,7 @@ This project is currently specific to my university **Victoria University of Wel
 
 ## Live Demo
 
-[andrew-exam-app.netlify.app](https://andrew-exam-app.netlify.app)
+[am-examscheduler.netlify.app](https://am-examscheduler.netlify.app/)
 
 ## Usage
 

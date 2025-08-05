@@ -96,7 +96,7 @@ def main():
     print(f"File size: {os.path.getsize(output_file)} bytes")
     
     # Show sample data
-    print("\n📋 Sample data:")
+    print("\nSample data:")
     for i, exam in enumerate(exams[:3]):
         print(f"  {i+1}. {exam['course_code']} - {exam['exam_date']} at {exam['start_time']}")
     

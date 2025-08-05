@@ -1,4 +1,3 @@
-// Sample exam data
 let examData = [
     // This will be populated from the JSON file
 ];
