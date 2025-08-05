@@ -2,11 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
-# Virtual environment
-venv/
-# SQLite database
-*.db
-# macOS
-.DS_Store
+
 # Excel files
-*.xlsx 
+*.xlsx
+
+# macOS
+.DS_Store 

@@ -16,7 +16,6 @@ async function loadExamData() {
 }
 
 // Event listeners
-document.getElementById('searchBtn').addEventListener('click', () => search());
 document.getElementById('searchInput').addEventListener('input', () => search());
 document.getElementById('searchInput').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') search();

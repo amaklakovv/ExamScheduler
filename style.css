@@ -66,22 +66,6 @@ section h2 {
     align-items: center;
 }
 
-/* Search button styling */
-.search-btn {
-    background: #4299e1;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.search-btn:hover {
-    background: #3182ce;
-}
-
 /* Search input styling */
 #searchInput {
     flex: 1;
@@ -109,6 +93,7 @@ section h2 {
     font-weight: 500;
     cursor: pointer;
     transition: background 0.3s ease;
+    white-space: nowrap;
 }
 
 .clear-btn:hover {
@@ -197,12 +182,31 @@ section h2 {
     padding: 12px;
     border-bottom: 1px solid #4a5568;
     color: #e2e8f0;
+    position: relative;
 }
 
 /* Hover effect for table rows */
+.exam-table tbody tr {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
 .exam-table tbody tr:hover {
     background: #4a5568;
-    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Add subtle calendar icon on hover */
+.exam-table tbody tr:hover::after {
+    content: "☆";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    opacity: 0.7;
 }
 
 /* Remove border from last row */
@@ -323,26 +327,6 @@ section h2 {
     color: white;
 }
 
-/* Copy text area */
-.copy-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #4a5568;
-    border-radius: 6px;
-    background: #2d3748;
-    color: #e2e8f0;
-    font-family: monospace;
-    font-size: 0.9rem;
-    resize: vertical;
-    min-height: 80px;
-    margin-bottom: 15px;
-}
-
-.copy-textarea:focus {
-    outline: none;
-    border-color: #4299e1;
-}
-
 /* Close button */
 .close-btn {
     background: #718096;
@@ -358,17 +342,6 @@ section h2 {
 
 .close-btn:hover {
     background: #4a5568;
-}
-
-/* Success message */
-.copy-success {
-    background: #c6f6d5;
-    color: #22543d;
-    border: 1px solid #9ae6b4;
-    padding: 10px;
-    border-radius: 6px;
-    margin-top: 10px;
-    display: none;
 }
 
 /* Footer styling */
