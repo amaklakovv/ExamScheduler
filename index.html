@@ -9,8 +9,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>📚 Exams</h1>
-            <p>Search your exam schedule</p>
+            <h1>Trimester 2 Exams</h1>
+            <p>Search the exam timetable</p>
         </header>
 
         <section class="search-section">
@@ -50,8 +50,34 @@
         </section>
     </div>
 
+    <!-- Calendar Modal -->
+    <div id="calendarModal" class="modal-overlay">
+        <div class="modal">
+            <h3 id="modalTitle">Add to Calendar</h3>
+            <p id="modalDescription">Choose how you'd like to add this exam to your calendar:</p>
+            
+            <div class="calendar-buttons">
+                <a id="googleCalendarBtn" class="calendar-btn" href="#" target="_blank">
+                    Google Calendar
+                </a>
+                <a id="appleCalendarBtn" class="calendar-btn apple" href="#" target="_blank">
+                    Apple Calendar
+                </a>
+                <button id="copyBtn" class="calendar-btn copy">
+                    Copy Details
+                </button>
+            </div>
+            
+            <button id="closeModalBtn" class="close-btn">Close</button>
+        </div>
+    </div>
+
     <footer class="footer">
-        <p>Andrew Maklakov &copy; 2025 Exam Schedule App</p>
+        <p>
+            &copy; Andrew Maklakov
+            <a href="https://www.linkedin.com/in/andrewmaklakov/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/amaklakovv" target="_blank">GitHub</a>
+        </p>
     </footer>
 
     <script src="script.js"></script>

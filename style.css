@@ -202,6 +202,7 @@ section h2 {
 /* Hover effect for table rows */
 .exam-table tbody tr:hover {
     background: #4a5568;
+    cursor: pointer;
 }
 
 /* Remove border from last row */
@@ -219,6 +220,181 @@ section h2 {
 .no-exams p {
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+/* Modal overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.show {
+    opacity: 1;
+}
+
+/* Modal content */
+.modal {
+    background: #1a202c;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    border: 1px solid #2d3748;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.modal-overlay.show .modal {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.modal h3 {
+    color: #e2e8f0;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.modal p {
+    color: #a0aec0;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Calendar buttons */
+.calendar-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.calendar-btn {
+    background: #4299e1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    flex: 1;
+    text-align: center;
+}
+
+.calendar-btn:hover {
+    background: #3182ce;
+    transform: translateY(-1px);
+}
+
+.calendar-btn.apple {
+    background: #48bb78;
+}
+
+.calendar-btn.apple:hover {
+    background: #38a169;
+}
+
+.calendar-btn.copy {
+    background: #718096;
+}
+
+.calendar-btn.copy:hover {
+    background: #4a5568;
+}
+
+.calendar-btn.copy.copied {
+    background: #48bb78;
+    color: white;
+}
+
+/* Copy text area */
+.copy-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #4a5568;
+    border-radius: 6px;
+    background: #2d3748;
+    color: #e2e8f0;
+    font-family: monospace;
+    font-size: 0.9rem;
+    resize: vertical;
+    min-height: 80px;
+    margin-bottom: 15px;
+}
+
+.copy-textarea:focus {
+    outline: none;
+    border-color: #4299e1;
+}
+
+/* Close button */
+.close-btn {
+    background: #718096;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.close-btn:hover {
+    background: #4a5568;
+}
+
+/* Success message */
+.copy-success {
+    background: #c6f6d5;
+    color: #22543d;
+    border: 1px solid #9ae6b4;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: none;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    color: #a0aec0;
+    border-top: 1px solid #2d3748;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.footer a {
+    color: #4299e1;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #3182ce;
+    text-decoration: underline;
 }
 
 /* Tablet and smaller desktop screens */
@@ -248,6 +424,16 @@ section h2 {
     .exam-table td {
         padding: 8px 6px;
     }
+    
+    .calendar-buttons {
+        flex-direction: column;
+    }
+    
+    .modal {
+        padding: 20px;
+        margin: 20px;
+        max-width: 90%;
+    }
 }
 
 /* Mobile phones */
@@ -261,18 +447,9 @@ section h2 {
         padding: 6px 4px;
         font-size: 0.8rem;
     }
-}
-
-/* Footer styling */
-.footer {
-    text-align: center;
-    padding: 30px 20px;
-    margin-top: 40px;
-    color: #a0aec0;
-    border-top: 1px solid #2d3748;
-}
-
-.footer p {
-    font-size: 0.9rem;
-    opacity: 0.8;
+    
+    .footer a {
+        display: block;
+        margin: 5px 0;
+    }
 } 
