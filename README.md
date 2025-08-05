@@ -1,34 +1,62 @@
 # Exam Scheduler
 
-Fast exam schedule search tool
+Fast exam schedule search tool with calendar integration
 
-At my university, the exam timetables are typically published as large Excel files that students must download and manually search through. This project creates a web interface where:
-- **Administrators** upload the official Excel file once
+At my university, the exam timetables are typically published as large Excel files that students must download and manually search through. This was also a problem myself and peers had where finding my exam would be challenging. This project creates a web interface where:
 - **Students** can instantly search for their exams by course code
-- **Real-time search** provides immediate results as you type in an easy to read way
+- **Real-time search** provides immediate results as you type
+- **Calendar integration** - click any exam to add to Google/Apple Calendar
+- **Mobile responsive** design works on all devices
 
-## Key Features Implemented
+## Key Features
 
-**File Upload & Parsing**: Handles complex Excel structures with merged cells  
-**Database Design**: SQLite schema for exam data persistence  
 **Real-time Search**: Instant filtering with case-insensitive matching  
-**RESTful API**: Clean endpoints for data retrieval and search  
-**Responsive Design**: Works on desktop, tablet, and mobile  
-**Error Handling**: Graceful handling of file uploads and parsing errors
+**Calendar Integration**: One-click add to Google Calendar or Apple Calendar  
+**Static Site**: Fast loading, no server maintenance, free hosting  
+**Mobile Responsive**: Works perfectly on phones and tablets  
+**Dark Theme**: Modern, accessible interface  
+
+## How It Works
+
+1. **Excel to JSON**: Python script converts university Excel files to JSON format
+2. **Static Site**: Pure HTML/CSS/JS loads exam data from JSON file
+3. **Real-time Search**: JavaScript filters exams as you type
+4. **Calendar Integration**: Click any exam to generate calendar links
+
+## University Integration
+
+This project is currently specific to my university **Victoria University of Wellington VUW**. If you'd like integration for other universities or schools, feel free to reach out! The Excel parsing script can be adapted for different formats.
 
 ## Technical
 
-- **Data Parsing**: Automatically detects and handles various Excel column formats
-- **Search Algorithm**: Efficient database queries with LIKE operators
-- **State Management**: Persistent data storage across server restarts
-- **User Experience**: Real-time search feedback and status messages
-- **Code Organization**: Modular functions for maintainability
+- **JSON Data** - Easy to update exam schedules
+- **Calendar APIs** - Google Calendar and Apple Calendar integration
+- **Responsive Design** - Mobile-first approach
+
+## Live Demo
+
+[andrew-exam-app.netlify.app](https://andrew-exam-app.netlify.app)
 
 ## Usage
 
-## This project is basically finished. In the future I'd like to add:
+1. **Search exams** by course code (e.g., "AIML231")
+2. **Click any exam row** to open calendar options
+3. **Choose calendar** - Google Calendar, Apple Calendar, or copy details
+4. **Add to calendar** with one click
 
-- Calendar integration (Google/Apple)
+## Update Exam Data
+
+When you get a new Excel file:
+```bash
+python3 convert_excel.py new_schedule.xlsx
+git add exams.json
+git commit -m "Update exam schedule"
+git push
+```
+
+## Future Features
+
+- Calendar integration (Google/Apple) **Done**
 - Email notifications
 - User authentication (e.g. Google Login)
-- Mobile app version
+- Mobile app version  **Done**
