@@ -13,7 +13,7 @@ At my university, the exam timetables are typically published as large Excel fil
 **Real-time Search**: Instant filtering with case-insensitive matching  
 **Calendar Integration**: One-click add to Google Calendar or Apple Calendar  
 **Static Site**: Fast loading, no server maintenance, free hosting  
-**Mobile Responsive**: Works perfectly on phones and tablets  
+**Mobile-First Design**: A fully responsive interface that works perfectly on phones, tablets, and desktops.
 **Dark Theme**: Modern, accessible interface  
 
 ## How It Works
@@ -56,7 +56,5 @@ git push
 
 ## Future Features
 
-- Calendar integration (Google/Apple) **Done**
 - Email notifications
 - User authentication (e.g. Google Login)
-- Mobile app version  **Done**

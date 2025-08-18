@@ -1,6 +1,7 @@
 let examData = [
     // This will be populated from the JSON file
 ];
+let searchTimeout;
 
 // Load exam data from JSON file
 async function loadExamData() {
@@ -10,13 +11,25 @@ async function loadExamData() {
         displayExams(examData);
     } catch (error) {
         console.error('Error loading exam data:', error);
-        document.getElementById('noExams').innerHTML = 
-            '<p>Error loading exam data. Please check back later.</p>';
+        const noExamsDiv = document.getElementById('noExams');
+        let errorMessage = '<p>Error loading exam data. Please try again later.</p>';
+        // Check if the page is being viewed from the local filesystem, which can cause fetch errors.
+        if (window.location.protocol === 'file:') {
+            errorMessage = `<p><strong>Error:</strong> Exam data could not be loaded.</p>
+                            <p>Try running <code>python3 -m http.server</code> in your project folder</p>`;
+        }
+        noExamsDiv.innerHTML = errorMessage;
     }
 }
 
 // Event listeners
-document.getElementById('searchInput').addEventListener('input', () => search());
+document.getElementById('searchInput').addEventListener('input', () => {
+    // Debounce search input
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+        search();
+    }, 100); // Wait 100ms after user stops typing
+});
 document.getElementById('searchInput').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') search();
 });
