@@ -14,13 +14,21 @@
         </header>
 
         <section class="search-section">
-            <h2>Search Exams</h2>
+            <h2>Search & Filter</h2>
             <div class="search-wrapper">
                 <label for="searchInput" class="sr-only">Search by course code</label>
                 <input type="text" id="searchInput" placeholder="Search by course code (e.g., AIML231)...">
-                <button id="clearSearch" class="clear-btn">Clear</button>
             </div>
             <div id="searchStatus" class="search-status"></div>
+            <div class="filter-controls">
+                <select id="dateFilter" aria-label="Filter by date">
+                    <option value="">All Dates</option>
+                </select>
+                <select id="roomFilter" aria-label="Filter by room">
+                    <option value="">All Rooms</option>
+                </select>
+                <button id="resetFilters" class="clear-btn">Clear All</button>
+            </div>
         </section>
 
         <section class="schedule-section">
@@ -29,11 +37,11 @@
             
             <div class="table-container">
                 <table id="examTable" class="exam-table">
-                    <thead>
+                    <thead id="tableHeader">
                         <tr>
-                            <th>Course Code</th>
-                            <th>Date</th>
-                            <th>Start Time</th>
+                            <th data-sort="course_code">Course Code</th>
+                            <th data-sort="exam_date">Date</th>
+                            <th data-sort="start_time">Start Time</th>
                             <th>Duration</th>
                             <th>Room</th>
                             <th>Student Split</th>
@@ -71,6 +79,8 @@
             <button id="closeModalBtn" class="close-btn">Close</button>
         </div>
     </div>
+
+    <button id="backToTopBtn" title="Go to top">▲</button>
 
     <footer class="footer">
         <p>
