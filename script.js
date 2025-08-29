@@ -222,6 +222,7 @@ function openCalendarModal(exam) {
     const modalDescription = document.getElementById('modalDescription');
     const googleBtn = document.getElementById('googleCalendarBtn');
     const appleBtn = document.getElementById('appleCalendarBtn');
+    const outlookBtn = document.getElementById('outlookCalendarBtn');
     const copyBtn = document.getElementById('copyBtn');
     
     // Update modal content
@@ -238,6 +239,10 @@ function openCalendarModal(exam) {
     // Apple Calendar link
     const appleUrl = generateAppleCalendarUrl(calendarData);
     appleBtn.href = appleUrl;
+    
+    // Outlook Calendar link
+    const outlookUrl = generateOutlookCalendarUrl(calendarData);
+    outlookBtn.href = outlookUrl;
     
     // Reset copy button
     copyBtn.textContent = 'Copy Details';
@@ -257,7 +262,7 @@ function openCalendarModal(exam) {
 function closeModal() {
     const modal = document.getElementById('calendarModal');
     const copyBtn = document.getElementById('copyBtn');
-    
+
     modal.classList.remove('show');
     setTimeout(() => {
         modal.style.display = 'none';
@@ -342,6 +347,23 @@ function generateAppleCalendarUrl(data) {
     const end = data.end.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
     
     return `data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0ABEGIN:VEVENT%0D%0ADTSTART:${start}%0D%0ADTEND:${end}%0D%0ASUMMARY:${encodeURIComponent(data.title)}%0D%0ADESCRIPTION:${encodeURIComponent(data.description)}%0D%0ALOCATION:${encodeURIComponent(data.location)}%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR`;
+}
+
+// Generate Outlook Calendar URL
+function generateOutlookCalendarUrl(data) {
+    const formatOutlookDate = (date) => date.toISOString().slice(0, 19);
+
+    const params = new URLSearchParams({
+        path: '/calendar/action/compose',
+        rru: 'addevent',
+        subject: data.title,
+        startdt: formatOutlookDate(data.start),
+        enddt: formatOutlookDate(data.end),
+        body: data.description,
+        location: data.location
+    });
+
+    return `https://outlook.live.com/calendar/0/deeplink/compose?${params.toString()}`;
 }
 
 // Generate copy text

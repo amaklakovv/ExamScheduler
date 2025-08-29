@@ -371,6 +371,14 @@ section h2 {
     background: #48bb78;
 }
 
+.calendar-btn.outlook {
+    background: #0078d4;
+}
+
+.calendar-btn.outlook:hover {
+    background: #005a9e;
+}
+
 .calendar-btn.apple:hover {
     background: #38a169;
 }
@@ -388,20 +396,17 @@ section h2 {
     color: white;
 }
 
-/* Close button */
-.close-btn {
-    background: #718096;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    width: 100%;
+.modal-footer {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-.close-btn:hover {
+.calendar-btn.close {
+    background: #718096;
+}
+
+.calendar-btn.close:hover {
     background: #4a5568;
 }
 
