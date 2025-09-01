@@ -231,18 +231,18 @@ function openCalendarModal(exam) {
     
     // Generate calendar links
     const calendarData = generateCalendarData(exam);
+    const fileName = `${exam.course_code}_exam.ics`;
     
     // Google Calendar link
     const googleUrl = generateGoogleCalendarUrl(calendarData);
     googleBtn.href = googleUrl;
     
-    // Apple Calendar link
-    const appleUrl = generateAppleCalendarUrl(calendarData);
-    appleBtn.href = appleUrl;
-    
-    // Outlook Calendar link
-    const outlookUrl = generateOutlookCalendarUrl(calendarData);
-    outlookBtn.href = outlookUrl;
+    // Apple & Outlook Calendar link (.ics file)
+    const iCalUrl = generateICalUrl(calendarData);
+    appleBtn.href = iCalUrl;
+    appleBtn.setAttribute('download', fileName);
+    outlookBtn.href = iCalUrl;
+    outlookBtn.setAttribute('download', fileName);
     
     // Reset copy button
     copyBtn.textContent = 'Copy Details';
@@ -341,29 +341,24 @@ function generateGoogleCalendarUrl(data) {
     return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(data.title)}&dates=${start}/${end}&details=${encodeURIComponent(data.description)}&location=${encodeURIComponent(data.location)}`;
 }
 
-// Generate Apple Calendar URL
-function generateAppleCalendarUrl(data) {
-    const start = data.start.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
-    const end = data.end.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
-    
-    return `data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0ABEGIN:VEVENT%0D%0ADTSTART:${start}%0D%0ADTEND:${end}%0D%0ASUMMARY:${encodeURIComponent(data.title)}%0D%0ADESCRIPTION:${encodeURIComponent(data.description)}%0D%0ALOCATION:${encodeURIComponent(data.location)}%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR`;
-}
+// Generate a universal .ics file (iCalendar) as a data URI
+function generateICalUrl(data) {
+    // iCalendar content, newlines in description are escaped for iCalendar format.
+    const icalContent = [
+        'BEGIN:VCALENDAR',
+        'VERSION:2.0',
+        'BEGIN:VEVENT',
+        `DTSTART:${data.start.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '')}`,
+        `DTEND:${data.end.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '')}`,
+        `SUMMARY:${data.title}`,
+        `DESCRIPTION:${data.description.replace(/\n/g, '\\n')}`,
+        `LOCATION:${data.location}`,
+        'END:VEVENT',
+        'END:VCALENDAR'
+    ].join('\r\n');
 
-// Generate Outlook Calendar URL
-function generateOutlookCalendarUrl(data) {
-    const formatOutlookDate = (date) => date.toISOString().slice(0, 19);
-
-    const params = new URLSearchParams({
-        path: '/calendar/action/compose',
-        rru: 'addevent',
-        subject: data.title,
-        startdt: formatOutlookDate(data.start),
-        enddt: formatOutlookDate(data.end),
-        body: data.description,
-        location: data.location
-    });
-
-    return `https://outlook.live.com/calendar/0/deeplink/compose?${params.toString()}`;
+    // Create a data URI, making sure the content is properly encoded
+    return `data:text/calendar;charset=utf-8,${encodeURIComponent(icalContent)}`;
 }
 
 // Generate copy text

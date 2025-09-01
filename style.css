@@ -367,8 +367,20 @@ section h2 {
     transform: translateY(-1px);
 }
 
+.calendar-btn.google {
+    background: #4285F4;
+}
+
+.calendar-btn.google:hover {
+    background: #3367D6;
+}
+
 .calendar-btn.apple {
-    background: #48bb78;
+    background: #989898;
+}
+
+.calendar-btn.apple:hover {
+    background: #6e6e6e;
 }
 
 .calendar-btn.outlook {
@@ -377,10 +389,6 @@ section h2 {
 
 .calendar-btn.outlook:hover {
     background: #005a9e;
-}
-
-.calendar-btn.apple:hover {
-    background: #38a169;
 }
 
 .calendar-btn.copy {
