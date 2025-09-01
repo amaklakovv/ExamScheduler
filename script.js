@@ -237,12 +237,14 @@ function openCalendarModal(exam) {
     const googleUrl = generateGoogleCalendarUrl(calendarData);
     googleBtn.href = googleUrl;
     
-    // Apple & Outlook Calendar link (.ics file)
+    // Apple Calendar link (.ics file)
     const iCalUrl = generateICalUrl(calendarData);
     appleBtn.href = iCalUrl;
     appleBtn.setAttribute('download', fileName);
-    outlookBtn.href = iCalUrl;
-    outlookBtn.setAttribute('download', fileName);
+    
+    // Outlook Calendar link (for Work/School accounts)
+    const outlookUrl = generateOutlookOfficeCalendarUrl(calendarData);
+    outlookBtn.href = outlookUrl;
     
     // Reset copy button
     copyBtn.textContent = 'Copy Details';
@@ -339,6 +341,23 @@ function generateGoogleCalendarUrl(data) {
     const end = data.end.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
     
     return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(data.title)}&dates=${start}/${end}&details=${encodeURIComponent(data.description)}&location=${encodeURIComponent(data.location)}`;
+}
+
+// Generate Outlook Calendar URL for Work/School (Office 365) accounts
+function generateOutlookOfficeCalendarUrl(data) {
+    const formatOutlookDate = (date) => date.toISOString().slice(0, 19);
+
+    const params = new URLSearchParams({
+        path: '/calendar/action/compose',
+        rru: 'addevent',
+        subject: data.title,
+        startdt: formatOutlookDate(data.start),
+        enddt: formatOutlookDate(data.end),
+        body: data.description.replace(/\n/g, '<br>'), // Outlook web uses HTML for body
+        location: data.location
+    });
+
+    return `https://outlook.office.com/calendar/0/deeplink/compose?${params.toString()}`;
 }
 
 // Generate a universal .ics file (iCalendar) as a data URI

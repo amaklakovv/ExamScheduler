@@ -347,10 +347,10 @@ section h2 {
 }
 
 .calendar-btn {
-    background: #4299e1;
-    color: white;
-    border: none;
-    padding: 12px 20px;
+    background: #2d3748; 
+    color: #e2e8f0;
+    border: 2px solid transparent;
+    padding: 10px 18px;
     border-radius: 6px;
     font-weight: 500;
     cursor: pointer;
@@ -368,31 +368,36 @@ section h2 {
 }
 
 .calendar-btn.google {
-    background: #4285F4;
+    border-color: #4285F4;
 }
 
 .calendar-btn.google:hover {
-    background: #3367D6;
+    background: #4285F4;
+    color: white;
 }
 
 .calendar-btn.apple {
-    background: #989898;
+    border-color: #a0aec0;
 }
 
 .calendar-btn.apple:hover {
-    background: #6e6e6e;
+    background: #a0aec0;
+    color: #1a202c;
 }
 
 .calendar-btn.outlook {
-    background: #0078d4;
+    border-color: #0078d4;
 }
 
 .calendar-btn.outlook:hover {
-    background: #005a9e;
+    background: #0078d4;
+    color: white;
 }
 
 .calendar-btn.copy {
     background: #718096;
+    border: none;
+    padding: 12px 20px;
 }
 
 .calendar-btn.copy:hover {
@@ -412,6 +417,8 @@ section h2 {
 
 .calendar-btn.close {
     background: #718096;
+    border: none;
+    padding: 12px 20px;
 }
 
 .calendar-btn.close:hover {
