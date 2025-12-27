@@ -39,7 +39,7 @@ This project is currently specific to the Victoria University of Wellington exam
 
 ## Usage
 
-1. **Search exams** by course code (e.g., "AIML231")
+1. **Search exams** by course code (e.g. ENGR201)
 2. **Click any exam row** to open calendar options
 3. **Choose calendar** - Google Calendar, Apple Calendar, or copy details
 4. **Add to calendar** with one click
