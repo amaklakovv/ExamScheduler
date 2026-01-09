@@ -1,100 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exam Scheduler</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>Exam Scheduler</h1>
-            <p>2025 End of Year Exams and Assessments</p>
-        </header>
+      <header>
+        <h1>Exam Scheduler</h1>
+        <p>2025 End of Year Exams and Assessments</p>
+      </header>
 
-        <section class="search-section">
-            <h2>Search & Filter</h2>
-            <div class="search-wrapper">
-                <label for="searchInput" class="sr-only">Search by course code</label>
-                <input type="text" id="searchInput" placeholder="Search by course code...">
-            </div>
-            <div id="searchStatus" class="search-status"></div>
-            <div class="filter-controls">
-                <select id="dateFilter" aria-label="Filter by date">
-                    <option value="">All Dates</option>
-                </select>
-                <select id="roomFilter" aria-label="Filter by room">
-                    <option value="">All Rooms</option>
-                </select>
-                <button id="resetFilters" class="clear-btn">Clear All</button>
-            </div>
-        </section>
+      <section class="search-section">
+        <h2>Search & Filter</h2>
+        <div class="search-wrapper">
+          <label for="searchInput" class="sr-only">Search by course code</label>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search by course code..."
+          />
+        </div>
+        <div id="searchStatus" class="search-status"></div>
+        <div class="filter-controls">
+          <select id="dateFilter" aria-label="Filter by date">
+            <option value="">All Dates</option>
+          </select>
+          <select id="roomFilter" aria-label="Filter by room">
+            <option value="">All Rooms</option>
+          </select>
+          <button id="resetFilters" class="clear-btn">Clear All</button>
+        </div>
+      </section>
 
-        <section class="schedule-section">
-            <h2>Exam Schedule</h2>
-            <div id="examCount" class="exam-count"></div>
-            
-            <div class="table-container">
-                <table id="examTable" class="exam-table">
-                    <thead id="tableHeader">
-                        <tr>
-                            <th data-sort="course_code">Course Code</th>
-                            <th data-sort="exam_date">Date</th>
-                            <th data-sort="start_time">Start Time</th>
-                            <th>Duration</th>
-                            <th>Room</th>
-                            <th>Student Split</th>
-                        </tr>
-                    </thead>
-                    <tbody id="examTableBody">
-                    </tbody>
-                </table>
-            </div>
-            
-            <div id="noExams" class="no-exams">
-                <p>No exams available yet. Please check back later.</p>
-            </div>
-        </section>
+      <section class="schedule-section">
+        <h2>Exam Schedule</h2>
+        <div id="examCount" class="exam-count"></div>
+
+        <div class="table-container">
+          <table id="examTable" class="exam-table">
+            <thead id="tableHeader">
+              <tr>
+                <th data-sort="course_code">Course Code</th>
+                <th data-sort="exam_date">Date</th>
+                <th data-sort="start_time">Start Time</th>
+                <th>Duration</th>
+                <th>Room</th>
+                <th>Student Split</th>
+              </tr>
+            </thead>
+            <tbody id="examTableBody"></tbody>
+          </table>
+        </div>
+
+        <div id="noExams" class="no-exams">
+          <p>No exams available yet. Please check back later.</p>
+        </div>
+      </section>
     </div>
 
     <!-- Calendar Modal -->
     <div id="calendarModal" class="modal-overlay">
-        <div class="modal">
-            <h3 id="modalTitle">Add to Calendar</h3>
-            <p id="modalDescription">Choose how you'd like to add this exam to your calendar:</p>
-            
-            <div class="calendar-buttons">
-                <a id="googleCalendarBtn" class="calendar-btn google" href="#" target="_blank">
-                    Google Calendar
-                </a>
-                <a id="appleCalendarBtn" class="calendar-btn apple" href="#" download>
-                    Apple Calendar
-                </a>
-                <a id="outlookCalendarBtn" class="calendar-btn outlook" href="#" target="_blank">
-                    Outlook Calendar
-                </a>
-            </div>
-            
-            <div class="modal-footer">
-                <button id="copyBtn" class="calendar-btn copy">
-                    Copy Details
-                </button>
-                <button id="closeModalBtn" class="calendar-btn close">Close</button>
-            </div>
+      <div class="modal">
+        <h3 id="modalTitle">Add to Calendar</h3>
+        <p id="modalDescription">
+          Choose how you'd like to add this exam to your calendar:
+        </p>
+
+        <div class="calendar-buttons">
+          <a
+            id="googleCalendarBtn"
+            class="calendar-btn google"
+            href="#"
+            target="_blank"
+          >
+            Google Calendar
+          </a>
+          <a id="appleCalendarBtn" class="calendar-btn apple" href="#" download>
+            Apple Calendar
+          </a>
+          <a
+            id="outlookCalendarBtn"
+            class="calendar-btn outlook"
+            href="#"
+            target="_blank"
+          >
+            Outlook Calendar
+          </a>
         </div>
+
+        <div class="modal-footer">
+          <button id="copyBtn" class="calendar-btn copy">Copy Details</button>
+          <button id="closeModalBtn" class="calendar-btn close">Close</button>
+        </div>
+      </div>
     </div>
 
     <button id="backToTopBtn" title="Go to top">▲</button>
 
     <footer class="footer">
-        <p>
-            &copy; Andrew Maklakov
-            <a href="https://www.linkedin.com/in/andrewmaklakov/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/amaklakovv" target="_blank">GitHub</a>
-        </p>
+      <p>
+        &copy; Andrew Maklakov
+        <a href="https://www.linkedin.com/in/andrewmaklakov/" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/amaklakovv" target="_blank">GitHub</a>
+      </p>
     </footer>
 
     <script src="script.js"></script>
-</body>
-</html> 
+  </body>
+</html>
