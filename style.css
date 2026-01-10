@@ -25,6 +25,11 @@ body {
   border-width: 0;
 }
 
+.share-btn.copied {
+  background-color: #28a745;
+  color: white;
+}
+
 /* Main container */
 .container {
   max-width: 1200px;
@@ -365,8 +370,7 @@ section h2 {
 
 .calendar-btn.copy.copied {
   background: rgba(72, 187, 120, 0.2);
-  color: #e2e8f0;
-  border-color: #48bb78;
+  color: #ffffff;
 }
 
 .modal-footer {

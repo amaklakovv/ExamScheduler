@@ -1,6 +1,64 @@
 let examData = [];
 let currentSort = { column: null, direction: "none" };
 let searchTimeout;
+let isInitialLoad = true;
+
+// URL Functions
+
+function getURLParams() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    search: params.get("search") || "",
+    date: params.get("date") || "",
+    room: params.get("room") || "",
+    sort: params.get("sort") || "",
+    direction: params.get("direction") || "",
+  };
+}
+
+// Persist URL parameters
+function updateURLParams(search, date, room, sort, direction) {
+  const params = new URLSearchParams();
+
+  if (search) params.set("search", search);
+  if (date) params.set("date", date);
+  if (room) params.set("room", room);
+  if (sort && direction && direction !== "none") {
+    params.set("sort", sort);
+    params.set("direction", direction);
+  }
+
+  const newUrl = params.toString()
+    ? `${window.location.pathname}?${params.toString()}`
+    : window.location.pathname;
+
+  window.history.replaceState({}, "", newUrl);
+}
+
+function applyURLParamsToFilters() {
+  const urlParams = getURLParams();
+
+  const searchInput = document.getElementById("searchInput");
+  const dateFilter = document.getElementById("dateFilter");
+  const roomFilter = document.getElementById("roomFilter");
+
+  if (urlParams.search) {
+    searchInput.value = urlParams.search;
+  }
+
+  if (urlParams.date) {
+    dateFilter.value = urlParams.date;
+  }
+
+  if (urlParams.room) {
+    roomFilter.value = urlParams.room;
+  }
+
+  if (urlParams.sort) {
+    currentSort.column = urlParams.sort;
+    currentSort.direction = urlParams.direction || "asc";
+  }
+}
 
 // Event Listeners
 
@@ -26,6 +84,7 @@ document.getElementById("resetFilters").addEventListener("click", () => {
   document.getElementById("dateFilter").value = "";
   document.getElementById("roomFilter").value = "";
   currentSort = { column: null, direction: "none" };
+  window.history.replaceState({}, "", window.location.pathname);
   applyFiltersAndSort();
 });
 
@@ -67,6 +126,7 @@ async function loadExamData() {
     const response = await fetch("./exams.json");
     examData = await response.json();
     populateFilters(examData);
+    applyURLParamsToFilters();
     applyFiltersAndSort();
   } catch (error) {
     console.error("Error loading exam data:", error);
@@ -116,6 +176,16 @@ function applyFiltersAndSort() {
     .toLowerCase();
   const dateQuery = document.getElementById("dateFilter").value;
   const roomQuery = document.getElementById("roomFilter").value;
+
+  if (!isInitialLoad || !window.location.search) {
+    updateURLParams(
+      searchQuery,
+      dateQuery,
+      roomQuery,
+      currentSort.column,
+      currentSort.direction
+    );
+  }
 
   // Filter
   let filteredExams = examData.filter((exam) => {
