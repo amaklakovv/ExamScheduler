@@ -20,9 +20,18 @@ function getURLParams() {
 function updateURLParams(search, date, room, sort, direction) {
   const params = new URLSearchParams();
 
-  if (search) params.set("search", search);
-  if (date) params.set("date", date);
-  if (room) params.set("room", room);
+  if (search && search.trim()) {
+    params.set("search", search.trim());
+  }
+
+  if (date) {
+    params.set("date", date);
+  }
+
+  if (room) {
+    params.set("room", room);
+  }
+
   if (sort && direction && direction !== "none") {
     params.set("sort", sort);
     params.set("direction", direction);
@@ -128,6 +137,7 @@ async function loadExamData() {
     populateFilters(examData);
     applyURLParamsToFilters();
     applyFiltersAndSort();
+    isInitialLoad = false;
   } catch (error) {
     console.error("Error loading exam data:", error);
     const noExamsDiv = document.getElementById("noExams");
@@ -138,6 +148,7 @@ async function loadExamData() {
                             <p>Try running <code>python3 -m http.server</code> in your project folder.</p>`;
     }
     noExamsDiv.innerHTML = errorMessage;
+    isInitialLoad = false;
   }
 }
 

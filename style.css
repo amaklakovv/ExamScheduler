@@ -25,11 +25,6 @@ body {
   border-width: 0;
 }
 
-.share-btn.copied {
-  background-color: #28a745;
-  color: white;
-}
-
 /* Main container */
 .container {
   max-width: 1200px;
