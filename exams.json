@@ -1,2466 +1,2874 @@
 [
   {
     "course_code": "ACCY130",
-    "exam_date": "2025-11-01",
-    "start_time": "14:30",
     "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "A - J"
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "A - DEL.",
+    "room": "TTRLT1"
   },
   {
     "course_code": "ACCY130",
-    "exam_date": "2025-11-01",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "K - Z"
+    "student_split": "DEM. - KAI.",
+    "room": "MCLT103"
   },
   {
-    "course_code": "ACCY131",
-    "exam_date": "2025-10-24",
+    "course_code": "ACCY130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "A - CL"
+    "student_split": "KAJ. - QUAN.",
+    "room": "HMLT205"
   },
   {
-    "course_code": "ACCY131",
-    "exam_date": "2025-10-24",
+    "course_code": "ACCY130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "CO - IR"
+    "student_split": "QUAY - Z",
+    "room": "MCLT101"
   },
   {
-    "course_code": "ACCY131",
-    "exam_date": "2025-10-24",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "IV - PA"
-  },
-  {
-    "course_code": "ACCY131",
-    "exam_date": "2025-10-24",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "PE - Z"
-  },
-  {
-    "course_code": "ACCY225",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "A - DA"
-  },
-  {
-    "course_code": "ACCY225",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "DI - NG"
-  },
-  {
-    "course_code": "ACCY225",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "NI - Z"
-  },
-  {
-    "course_code": "ACCY302",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "ACCY223",
     "duration": "180 minutes",
-    "room": "MCLT103",
-    "student_split": "A - KO"
+    "exam_date": "2026-06-13",
+    "start_time": "09:30",
+    "student_split": "A - GE.",
+    "room": "HMLT205"
   },
   {
-    "course_code": "ACCY302",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "ACCY223",
     "duration": "180 minutes",
-    "room": "MCLT101",
-    "student_split": "KR - Z"
-  },
-  {
-    "course_code": "ACCY306",
-    "exam_date": "2025-11-03",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "ACCY314",
-    "exam_date": "2025-10-22",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "ACCY330",
-    "exam_date": "2025-10-24",
+    "exam_date": "2026-06-13",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT103",
-    "student_split": "A - BI"
+    "student_split": "GH. - N",
+    "room": "MCLT101"
   },
   {
-    "course_code": "ACCY330",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "BIH - LOC"
-  },
-  {
-    "course_code": "ACCY330",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "LOR - Z"
-  },
-  {
-    "course_code": "ACCY413",
-    "exam_date": "2025-10-22",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "ACTS336",
-    "exam_date": "2025-11-03",
-    "start_time": "09:30",
+    "course_code": "ACCY223",
     "duration": "180 minutes",
-    "room": "HMLT002",
-    "student_split": "All Students"
+    "exam_date": "2026-06-13",
+    "start_time": "09:30",
+    "student_split": "O - Z",
+    "room": "MCLT103"
   },
   {
-    "course_code": "ACTS502",
-    "exam_date": "2025-10-31",
+    "course_code": "ACCY231",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
     "start_time": "09:30",
+    "student_split": "A - GR.",
+    "room": "GBLT2"
+  },
+  {
+    "course_code": "ACCY231",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "GU. - NI.",
+    "room": "GBLT1"
+  },
+  {
+    "course_code": "ACCY231",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "NO. - Z",
+    "room": "RHLT1"
+  },
+  {
+    "course_code": "ACCY308",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "A - GA.",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "ACCY308",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "GE.- MO.",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "ACCY308",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "MU.- Z",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "ACTS201",
     "duration": "180 minutes",
-    "room": "HMLT103",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "AIML131",
-    "exam_date": "2025-10-28",
+    "exam_date": "2026-06-19",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "A - FAA"
+    "student_split": "All Students",
+    "room": "HULT119"
   },
   {
-    "course_code": "AIML131",
-    "exam_date": "2025-10-28",
+    "course_code": "ACTS331",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-15",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "FAL - MOD"
+    "student_split": "All Students",
+    "room": "RHLT3"
   },
   {
-    "course_code": "AIML131",
-    "exam_date": "2025-10-28",
+    "course_code": "ACTS511",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-12",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "MON - Z"
+    "student_split": "All Students",
+    "room": "HMLT104"
   },
   {
-    "course_code": "AIML232",
-    "exam_date": "2025-10-24",
+    "course_code": "ACTS513",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-16",
+    "start_time": "09:30",
+    "student_split": "All Students",
+    "room": "HMLT001"
+  },
+  {
+    "course_code": "AIML231",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "A - LEE"
+    "student_split": "A - D",
+    "room": "MCLT102"
   },
   {
-    "course_code": "AIML232",
-    "exam_date": "2025-10-24",
-    "start_time": "14:30",
+    "course_code": "AIML231",
     "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "LEI - Z"
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "E - LE R.",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "AIML231",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "LE, K - PI.",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "AIML231",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "PR. - Z",
+    "room": "KKLT303"
   },
   {
     "course_code": "AIML320",
-    "exam_date": "2025-10-23",
-    "start_time": "14:30",
     "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "All Students",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "AIML331",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
+    "start_time": "09:30",
+    "student_split": "All Students",
+    "room": "HULT323"
   },
   {
     "course_code": "AIML332",
-    "exam_date": "2025-11-04",
-    "start_time": "14:30",
     "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "All Students"
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "All Students",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "AIML333",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "All Students",
+    "room": "KKLT301"
   },
   {
     "course_code": "AIML420",
-    "exam_date": "2025-10-23",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "All Students",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "AIML428",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "All Students",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "AIML429",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT103",
-    "student_split": "A - H"
+    "student_split": "A - LE.",
+    "room": "HMLT103"
   },
   {
-    "course_code": "AIML420",
-    "exam_date": "2025-10-23",
+    "course_code": "AIML429",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "K - Z"
+    "student_split": "LI. - Z",
+    "room": "MCLT103"
   },
   {
-    "course_code": "AIML425",
-    "exam_date": "2025-11-04",
+    "course_code": "BIOL113",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "A - DE.",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "BIOL113",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "DI. - MCL.",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "BIOL113",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "MCQ. - Z",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "BIOL114",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
+    "student_split": "A - BROO.",
+    "room": "MCLT102"
   },
   {
-    "course_code": "AIML426",
-    "exam_date": "2025-10-20",
+    "course_code": "BIOL114",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "14:30",
+    "student_split": "BROW. - FOS.",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "BIOL114",
     "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "AIML430",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "480 minutes",
-    "room": "Online Delivery",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "AIML431",
-    "exam_date": "2025-11-06",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "BIOL111",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "A - DI"
-  },
-  {
-    "course_code": "BIOL111",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "DO - J"
-  },
-  {
-    "course_code": "BIOL111",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "K - REID, An"
-  },
-  {
-    "course_code": "BIOL111",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "REID, Ar - Z"
-  },
-  {
-    "course_code": "BIOL227",
-    "exam_date": "2025-11-06",
+    "exam_date": "2026-06-16",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "KKLT301",
-    "student_split": "A - H"
+    "student_split": "FOX - LI",
+    "room": "KKLT303"
   },
   {
-    "course_code": "BIOL227",
-    "exam_date": "2025-11-06",
+    "course_code": "BIOL114",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "J - Z"
+    "student_split": "LIS. - ROS",
+    "room": "MCLT101"
   },
   {
-    "course_code": "BIOL236",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
+    "course_code": "BIOL114",
     "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "BIOL241",
-    "exam_date": "2025-11-01",
+    "exam_date": "2026-06-16",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "A - KA"
+    "student_split": "ROW. - Z",
+    "room": "HMLT205"
   },
   {
-    "course_code": "BIOL241",
-    "exam_date": "2025-11-01",
+    "course_code": "BIOL244",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-13",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "KI - ZI"
+    "student_split": "A - JUD.",
+    "room": "TTRLT1"
   },
   {
-    "course_code": "BIOL243",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
+    "course_code": "BIOL244",
     "duration": "120 minutes",
-    "room": "MYLT101",
-    "student_split": "A - CR"
-  },
-  {
-    "course_code": "BIOL243",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MYLT220",
-    "student_split": "CU - HIG"
-  },
-  {
-    "course_code": "BIOL243",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "HIN - REI"
-  },
-  {
-    "course_code": "BIOL243",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HULT119",
-    "student_split": "REM - Z"
-  },
-  {
-    "course_code": "BIOL271",
-    "exam_date": "2025-10-20",
+    "exam_date": "2026-06-13",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "A - KE"
+    "student_split": "JUL. - Z",
+    "room": "MCLT101"
   },
   {
-    "course_code": "BIOL271",
-    "exam_date": "2025-10-20",
+    "course_code": "BIOL252",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "A - KA.",
+    "room": "TTRLT1"
+  },
+  {
+    "course_code": "BIOL252",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "KU. - Z",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "BIOL327",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "KI - Z"
+    "student_split": "All students",
+    "room": "KKLT303"
   },
   {
-    "course_code": "BIOL329",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
+    "course_code": "BIOL340",
     "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "A - J"
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "A - G",
+    "room": "MYLT101"
   },
   {
-    "course_code": "BIOL329",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
+    "course_code": "BIOL340",
     "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "K - Z"
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "H - MO.",
+    "room": "MYLT220"
   },
   {
-    "course_code": "BIOL430",
-    "exam_date": "2025-11-06",
+    "course_code": "BIOL340",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "MU.- Z",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "BIOL420",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "BMSC301",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
     "start_time": "09:30",
+    "student_split": "All students",
+    "room": "TTRLT1"
+  },
+  {
+    "course_code": "BMSC335",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "All Students",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "BTEC301",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "CHEM113",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "A - MAN.",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "CHEM113",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "MAR. - Z",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "CHEM208",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "CHEM310",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "CHEM422",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "CHEM423",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "CHEM424",
     "duration": "180 minutes",
-    "room": "MYLT220",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "BMSC117",
-    "exam_date": "2025-10-18",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT002",
-    "student_split": "A - DE"
-  },
-  {
-    "course_code": "BMSC117",
-    "exam_date": "2025-10-18",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "DH - L"
-  },
-  {
-    "course_code": "BMSC117",
-    "exam_date": "2025-10-18",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "M - Z"
-  },
-  {
-    "course_code": "BMSC334",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "BMSC339",
-    "exam_date": "2025-10-24",
+    "exam_date": "2026-06-10",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "HMLT001"
   },
   {
-    "course_code": "CHEM121",
-    "exam_date": "2025-11-04",
+    "course_code": "CLAS208",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-18",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "A - KOH"
+    "student_split": "All students",
+    "room": "HULT323"
   },
   {
-    "course_code": "CHEM121",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "KON - Z"
-  },
-  {
-    "course_code": "CHEM122",
-    "exam_date": "2025-10-21",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "CHEM210",
-    "exam_date": "2025-11-03",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "CHEM308",
-    "exam_date": "2025-10-22",
-    "start_time": "09:30",
+    "course_code": "CLAS308",
     "duration": "180 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "All stuedents",
+    "room": "HULT119"
   },
   {
-    "course_code": "CHEM421",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
+    "course_code": "CLAS407",
     "duration": "180 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "CHEM425",
-    "exam_date": "2025-10-31",
+    "exam_date": "2026-06-18",
     "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "HMLT103",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "HULT119"
   },
   {
-    "course_code": "COML111",
-    "exam_date": "2025-11-03",
+    "course_code": "COML203",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "Online Delivery",
-    "student_split": "All Students"
+    "student_split": "A - FOU.",
+    "room": "HULT323"
   },
   {
-    "course_code": "COML204",
-    "exam_date": "2025-10-29",
-    "start_time": "14:30",
+    "course_code": "COML203",
     "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "A - EL"
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "FOX. - NE.",
+    "room": "KKLT303"
   },
   {
-    "course_code": "COML204",
-    "exam_date": "2025-10-29",
-    "start_time": "14:30",
+    "course_code": "COML203",
     "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "ET - KO"
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "NG. - Z",
+    "room": "HMLT205"
   },
   {
-    "course_code": "COML204",
-    "exam_date": "2025-10-29",
-    "start_time": "14:30",
+    "course_code": "COML309",
     "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "KU - PRASAD, Ab"
-  },
-  {
-    "course_code": "COML204",
-    "exam_date": "2025-10-29",
+    "exam_date": "2026-06-19",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "PRASAD, As - Z"
-  },
-  {
-    "course_code": "COML205",
-    "exam_date": "2025-10-22",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "Online Delivery",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "COML310",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "Online Delivery",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "MCLT102"
   },
   {
     "course_code": "COMP102",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "A - HOA"
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "A - CAL.",
+    "room": "COLT122"
   },
   {
     "course_code": "COMP102",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "HOL - Z"
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "CAR. - FAL.",
+    "room": "HULT323"
   },
   {
-    "course_code": "COMP103",
-    "exam_date": "2025-10-21",
+    "course_code": "COMP102",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "FAN - HUG.",
+    "room": "TTRLT1"
+  },
+  {
+    "course_code": "COMP102",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "HUN. - MENZIES, A",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "COMP102",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "MENZIES, T  - SHARMA, N",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "COMP102",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "SHARMA, S - Z",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "COMP361",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "KKLT301",
-    "student_split": "A - COG"
+    "student_split": "A - JIANG, K",
+    "room": "MCLT102"
   },
   {
-    "course_code": "COMP103",
-    "exam_date": "2025-10-21",
+    "course_code": "COMP361",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "CON - KAP"
+    "student_split": "JIANG, N - Z",
+    "room": "MCLT103"
   },
   {
-    "course_code": "COMP103",
-    "exam_date": "2025-10-21",
+    "course_code": "COMS201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "A - CAMPB.",
+    "room": "MYLT101"
+  },
+  {
+    "course_code": "COMS201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "CAMPU. - HA.",
+    "room": "HULT220"
+  },
+  {
+    "course_code": "COMS201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "HU. - PAN.",
+    "room": "HULT119"
+  },
+  {
+    "course_code": "COMS201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "PAR. - Z",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "CYBR171",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "KE - PEA"
+    "student_split": "A - COC.",
+    "room": "MCLT102"
   },
   {
-    "course_code": "COMP103",
-    "exam_date": "2025-10-21",
+    "course_code": "CYBR171",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "PEL - Z"
+    "student_split": "COL. - HAI.",
+    "room": "MCLT101"
   },
   {
-    "course_code": "COMP132",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
+    "course_code": "CYBR171",
     "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "A - F"
-  },
-  {
-    "course_code": "COMP132",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "G - ME"
-  },
-  {
-    "course_code": "COMP132",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "MI - Z"
-  },
-  {
-    "course_code": "CYBR271",
-    "exam_date": "2025-11-01",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "A - KH"
-  },
-  {
-    "course_code": "CYBR271",
-    "exam_date": "2025-11-01",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "KI - Z"
-  },
-  {
-    "course_code": "CYBR372",
-    "exam_date": "2025-11-05",
+    "exam_date": "2026-06-12",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT002",
-    "student_split": "A - G"
+    "student_split": "HAM. - M",
+    "room": "TTRLT1"
   },
   {
-    "course_code": "CYBR372",
-    "exam_date": "2025-11-05",
+    "course_code": "CYBR171",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "H - Z"
+    "student_split": "N - Z",
+    "room": "HMLT205"
   },
   {
-    "course_code": "DATA202",
-    "exam_date": "2025-10-18",
+    "course_code": "CYBR371",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "A - L",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "CYBR371",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "M - Z",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "CYBR472",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "A - DONALDSON, O"
+    "student_split": "All students",
+    "room": "KKLT303"
   },
   {
-    "course_code": "DATA202",
-    "exam_date": "2025-10-18",
-    "start_time": "14:30",
+    "course_code": "DATA303",
     "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "DONALDSON, S - NE"
-  },
-  {
-    "course_code": "DATA202",
-    "exam_date": "2025-10-18",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "NG - Z"
-  },
-  {
-    "course_code": "ECON141",
-    "exam_date": "2025-10-31",
+    "exam_date": "2026-06-13",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "ADAM - BIH"
+    "student_split": "A - LE.",
+    "room": "HMLT104"
   },
   {
-    "course_code": "ECON141",
-    "exam_date": "2025-10-31",
+    "course_code": "DATA303",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-13",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "BIR - CR"
+    "student_split": "LI. - Z",
+    "room": "MY501"
   },
   {
-    "course_code": "ECON141",
-    "exam_date": "2025-10-31",
+    "course_code": "DATA305",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "CU - GI"
+    "student_split": "All students",
+    "room": "MCLT101"
   },
   {
-    "course_code": "ECON141",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "GO - KUK"
-  },
-  {
-    "course_code": "ECON141",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "KUM - OG"
-  },
-  {
-    "course_code": "ECON141",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "OH - SIK"
-  },
-  {
-    "course_code": "ECON141",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "SIM - Z"
-  },
-  {
-    "course_code": "ECON202",
-    "exam_date": "2025-10-17",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "ECON303",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "ECON305",
-    "exam_date": "2025-11-07",
-    "start_time": "09:30",
+    "course_code": "DATA473",
     "duration": "180 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "ECON405",
-    "exam_date": "2025-10-22",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "ECON433",
-    "exam_date": "2025-10-30",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT001",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "EEEN204",
-    "exam_date": "2025-11-06",
+    "exam_date": "2026-06-15",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "MYLT220"
   },
   {
-    "course_code": "EEEN220",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
+    "course_code": "DATA475",
     "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "EEEN313",
-    "exam_date": "2025-10-23",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "EEEN320",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "EEEN401",
-    "exam_date": "2025-10-20",
+    "exam_date": "2026-06-17",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "MCLT101"
   },
   {
-    "course_code": "EEEN402",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
+    "course_code": "DATA491",
     "duration": "120 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
+    "exam_date": "2026-06-19",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HULT119"
+  },
+  {
+    "course_code": "ECON130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "09:30",
+    "student_split": "A - BR.",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "ECON130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "09:30",
+    "student_split": "BU. - ED.",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "ECON130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "09:30",
+    "student_split": "EG. - HAS.",
+    "room": "TTRLT1"
+  },
+  {
+    "course_code": "ECON130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "09:30",
+    "student_split": "HAW. - KL.",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "ECON130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "09:30",
+    "student_split": "KO. - NEL",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "ECON130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "09:30",
+    "student_split": "NEP. - SIL.",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "ECON130",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "09:30",
+    "student_split": "SIM. - Z",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "ECON201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "09:30",
+    "student_split": "A - FR.",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "ECON201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "09:30",
+    "student_split": "FU. - Z",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "ECON307",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-13",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "ECON328",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "GBLT2"
+  },
+  {
+    "course_code": "ECON333",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "RHLT2"
+  },
+  {
+    "course_code": "ECON418",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HMLT103"
+  },
+  {
+    "course_code": "EEEN202",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "A - KE.",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "EEEN202",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "KO. - Z",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "EEEN301",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "EEEN315",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "MY501"
   },
   {
     "course_code": "ENGL111",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "HMLT001",
-    "student_split": "A - BOON"
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "A - HOO.",
+    "room": "MCLT103"
   },
   {
     "course_code": "ENGL111",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "HMLT002",
-    "student_split": "BOOY - GI"
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "HOS. - Z",
+    "room": "MCLT101"
   },
   {
-    "course_code": "ENGL111",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "GO - M"
-  },
-  {
-    "course_code": "ENGL111",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "N - Z"
-  },
-  {
-    "course_code": "ENGL228",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "ENGL239",
     "duration": "180 minutes",
-    "room": "HMLT103",
-    "student_split": "A - CH"
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "A - J",
+    "room": "HMLT002"
   },
   {
-    "course_code": "ENGL228",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "ENGL239",
     "duration": "180 minutes",
-    "room": "HMLT205",
-    "student_split": "CL - Z"
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "K - Z",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "ENGL329",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "A - KE.",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "ENGL329",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "KI. - Z",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "ENGL331",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "KKLT303"
   },
   {
     "course_code": "ENGR121",
-    "exam_date": "2025-11-05",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "All Students"
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "A - FRAN.",
+    "room": "TTRLT1"
   },
   {
-    "course_code": "ENGR122",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
+    "course_code": "ENGR121",
     "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "All Students"
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "FRAS. - MEG.",
+    "room": "HMLT205"
   },
   {
-    "course_code": "ENGR142",
-    "exam_date": "2025-10-31",
+    "course_code": "ENGR121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "MEN. - Z",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "ENGR141",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "ENGR222",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "ENGR301",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-13",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "HMLT205"
   },
   {
-    "course_code": "ESCI409",
-    "exam_date": "2025-10-20",
+    "course_code": "ENGR401",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "ENGR489",
+    "duration": "All day",
+    "exam_date": "2026-06-05",
+    "start_time": "All day",
+    "student_split": "All students (School to manage)",
+    "room": ""
+  },
+  {
+    "course_code": "ENGR502",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "ENVI520",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "MYLT220"
   },
   {
-    "course_code": "ESCI453",
-    "exam_date": "2025-10-22",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "CO216",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "FINA202",
-    "exam_date": "2025-11-06",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "A - MA"
-  },
-  {
-    "course_code": "FINA202",
-    "exam_date": "2025-11-06",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "MC - Z"
-  },
-  {
-    "course_code": "FINA305",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "FINA311",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "RHG01",
-    "student_split": "A - K"
-  },
-  {
-    "course_code": "FINA311",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "RH101",
-    "student_split": "L - Z"
-  },
-  {
-    "course_code": "FINA403",
-    "exam_date": "2025-10-17",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "FINA406",
-    "exam_date": "2025-11-05",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT3",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "FPSY420",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
+    "course_code": "ESCI412",
     "duration": "180 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
+    "exam_date": "2026-06-13",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MCLT103"
   },
   {
-    "course_code": "GEOG215",
-    "exam_date": "2025-11-03",
-    "start_time": "09:30",
+    "course_code": "ESCI413",
     "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "A - I"
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "LBLT118"
   },
   {
-    "course_code": "GEOG215",
-    "exam_date": "2025-11-03",
-    "start_time": "09:30",
+    "course_code": "FINA201",
     "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "J - Z"
+    "exam_date": "2026-06-11",
+    "start_time": "09:30",
+    "student_split": "A - F",
+    "room": "RHLT3"
   },
   {
-    "course_code": "GEOG314",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "Online Delivery",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "GEOS102",
-    "exam_date": "2025-10-22",
-    "start_time": "09:30",
+    "course_code": "FINA201",
     "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "A - F"
-  },
-  {
-    "course_code": "GEOS102",
-    "exam_date": "2025-10-22",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT002",
-    "student_split": "G - MC"
+    "student_split": "G - ME.",
+    "room": "RHLT2"
   },
   {
-    "course_code": "GEOS102",
-    "exam_date": "2025-10-22",
+    "course_code": "FINA201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "MI - Z"
+    "student_split": "MO. - Z",
+    "room": "RHLT1"
   },
   {
-    "course_code": "GEOS201",
-    "exam_date": "2025-10-30",
+    "course_code": "FINA211",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
+    "student_split": "A - CI.",
+    "room": "RHLT1"
   },
   {
-    "course_code": "GEOS204",
-    "exam_date": "2025-10-17",
+    "course_code": "FINA211",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "All Students"
+    "student_split": "CL. - MCG.",
+    "room": "GBLT1"
   },
   {
-    "course_code": "GEOS301",
-    "exam_date": "2025-10-30",
+    "course_code": "FINA211",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
+    "student_split": "MCK. - Z",
+    "room": "GBLT2"
   },
   {
-    "course_code": "GEOS304",
-    "exam_date": "2025-10-17",
-    "start_time": "09:30",
+    "course_code": "FINA301",
     "duration": "120 minutes",
-    "room": "HMLT002",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "GEOS306",
-    "exam_date": "2025-11-05",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "GEOS307",
-    "exam_date": "2025-10-20",
+    "exam_date": "2026-06-19",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "KKLT303"
   },
   {
-    "course_code": "GPHS425",
-    "exam_date": "2025-10-17",
-    "start_time": "09:30",
+    "course_code": "FINA303",
     "duration": "120 minutes",
-    "room": "MetService",
-    "student_split": "All Students"
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "A - HA.",
+    "room": "HMLT001"
   },
   {
-    "course_code": "GPHS426",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
+    "course_code": "FINA303",
     "duration": "120 minutes",
-    "room": "MetService",
-    "student_split": "All Students"
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "HO. - Z",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "FINA306",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HMLT103"
+  },
+  {
+    "course_code": "GBUS514",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HULT119"
+  },
+  {
+    "course_code": "GEOG114",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "A - I",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "GEOG114",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "J - Z",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "GEOS101",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "A - J",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "GEOS101",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "K - Z",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "GEOS205",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "GEOS209",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "GEOS211",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "GEOS305",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "A - CA.",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "GEOS305",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "CH. - Z",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "GEOS309",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "GEOS401",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "GEOS402",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT103"
   },
   {
     "course_code": "GPHS445",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "HLWB103",
-    "exam_date": "2025-11-05",
+    "exam_date": "2026-06-11",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "A - FA"
+    "student_split": "All students",
+    "room": "LBLT118"
   },
   {
-    "course_code": "HLWB103",
-    "exam_date": "2025-11-05",
-    "start_time": "14:30",
+    "course_code": "HLWB105",
     "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "FO - Z"
-  },
-  {
-    "course_code": "HLWB202",
-    "exam_date": "2025-10-24",
+    "exam_date": "2026-06-15",
     "start_time": "09:30",
+    "student_split": "A - DE.",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "HLWB105",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "DI. - HO.",
+    "room": "MY501"
+  },
+  {
+    "course_code": "HLWB105",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "HU. - MAT.",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "HLWB105",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "MAW. - RE.",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "HLWB105",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "RO. - Z",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "HLWB205",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "HPSY501",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "HPSY503",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "IBUS201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "A - KO",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "IBUS201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "KU. - Z",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "A - AMA.",
+    "room": "HMLT103"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "AMI. - BA.",
+    "room": "MYLT101"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "BE. - BL.",
+    "room": "LBLT118"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "BO. - CAME.",
+    "room": "MYLT220"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "CAMP. - CLARK, LE",
+    "room": "KK202"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "CLARK, LI - DE LA.",
+    "room": "HULT220"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "DEL M. - ENO.",
+    "room": "HULT119"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "ENU. - GIBSON, A",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "GIBSON, L - HE.",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "HI. - JO.",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "JU. - LEA.",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "LEC. - MAY",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "MAZ. - NEWELL, JE",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "NEWELL, JO - RAK.",
+    "room": "TTRLT1"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "RAU. - SUN",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "LAWS121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "SUNG - Z",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "LAWS211",
     "duration": "180 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "HRER301",
-    "exam_date": "2025-10-30",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "A - LAT"
-  },
-  {
-    "course_code": "HRER301",
-    "exam_date": "2025-10-30",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT002",
-    "student_split": "LAY - Z"
-  },
-  {
-    "course_code": "IBUS205",
-    "exam_date": "2025-10-23",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "A - DUF"
-  },
-  {
-    "course_code": "IBUS205",
-    "exam_date": "2025-10-23",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "DUN - Z"
-  },
-  {
-    "course_code": "LAWS122",
-    "exam_date": "2025-10-18",
+    "exam_date": "2026-06-19",
     "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "MCLT102",
-    "student_split": "A - BIN"
-  },
-  {
-    "course_code": "LAWS122",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "KKLT301",
-    "student_split": "BIR - DAL"
-  },
-  {
-    "course_code": "LAWS122",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "COLT122",
-    "student_split": "DAU - GI"
-  },
-  {
-    "course_code": "LAWS122",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "KKLT303",
-    "student_split": "GO - JAM"
-  },
-  {
-    "course_code": "LAWS122",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "TTRLT1",
-    "student_split": "JAN - MAHA"
-  },
-  {
-    "course_code": "LAWS122",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "MCLT101",
-    "student_split": "MAHO - PATEL"
-  },
-  {
-    "course_code": "LAWS122",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "HMLT205",
-    "student_split": "PATELE - TAA"
-  },
-  {
-    "course_code": "LAWS122",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "MCLT103",
-    "student_split": "TAI - Z"
-  },
-  {
-    "course_code": "LAWS123",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "MCLT102",
-    "student_split": "A - BIRKDAR, D"
-  },
-  {
-    "course_code": "LAWS123",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "HMLT104",
-    "student_split": "BIRKDAR, W - COO"
-  },
-  {
-    "course_code": "LAWS123",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "KKLT301",
-    "student_split": "COR - F"
-  },
-  {
-    "course_code": "LAWS123",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "KKLT303",
-    "student_split": "G - I"
-  },
-  {
-    "course_code": "LAWS123",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "TTRLT1",
-    "student_split": "J - MACKA"
-  },
-  {
-    "course_code": "LAWS123",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "MCLT101",
-    "student_split": "MACKN - PATC"
-  },
-  {
-    "course_code": "LAWS123",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "HMLT205",
-    "student_split": "PATE - SU"
-  },
-  {
-    "course_code": "LAWS123",
-    "exam_date": "2025-10-28",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "MCLT103",
-    "student_split": "SY - Z"
+    "student_split": "A - BON.",
+    "room": "GBLT4"
   },
   {
     "course_code": "LAWS211",
-    "exam_date": "2025-10-20",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "GBLT4",
-    "student_split": "A - BE"
+    "duration": "180 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "BOY. - C",
+    "room": "GBLT3"
   },
   {
     "course_code": "LAWS211",
-    "exam_date": "2025-10-20",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "RHLT3",
-    "student_split": "BH - CO"
+    "duration": "180 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "D - GAL.",
+    "room": "RHLT3"
   },
   {
     "course_code": "LAWS211",
-    "exam_date": "2025-10-20",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "RHLT2",
-    "student_split": "CR - GE"
+    "duration": "180 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "GAN. - I",
+    "room": "RHLT2"
   },
   {
     "course_code": "LAWS211",
-    "exam_date": "2025-10-20",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "GBLT2",
-    "student_split": "GI - MAL"
+    "duration": "180 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "J - MEG.",
+    "room": "GBLT2"
   },
   {
     "course_code": "LAWS211",
-    "exam_date": "2025-10-20",
-    "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "GBLT1",
-    "student_split": "MAR - ROG"
+    "duration": "180 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "MES. - SAB.",
+    "room": "GBLT1"
   },
   {
     "course_code": "LAWS211",
-    "exam_date": "2025-10-20",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "SAG. - Z",
+    "room": "RHLT1"
+  },
+  {
+    "course_code": "LAWS212",
+    "duration": "140 minutes",
+    "exam_date": "2026-06-12",
     "start_time": "14:30",
-    "duration": "130 minutes",
-    "room": "RHLT1",
-    "student_split": "ROL - Z"
+    "student_split": "A - BHAL.",
+    "room": "RH105"
   },
   {
     "course_code": "LAWS212",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
     "duration": "140 minutes",
-    "room": "GBLT3",
-    "student_split": "A - BIE"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "BHAR. - CLARE",
+    "room": "GBLT4"
   },
   {
     "course_code": "LAWS212",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
     "duration": "140 minutes",
-    "room": "GBLT4",
-    "student_split": "BIL - CON"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "CLARK - DES.",
+    "room": "GBLT3"
   },
   {
     "course_code": "LAWS212",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
     "duration": "140 minutes",
-    "room": "RHLT3",
-    "student_split": "COO - D"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "DEV. - HAI.",
+    "room": "RHLT3"
   },
   {
     "course_code": "LAWS212",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
     "duration": "140 minutes",
-    "room": "RHLT2",
-    "student_split": "E - HE"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "HAL. - KIND.",
+    "room": "RHLT2"
   },
   {
     "course_code": "LAWS212",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
     "duration": "140 minutes",
-    "room": "GBLT2",
-    "student_split": "HI - MCO"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "KING - MO.",
+    "room": "GBLT2"
   },
   {
     "course_code": "LAWS212",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
     "duration": "140 minutes",
-    "room": "GBLT1",
-    "student_split": "ME - SC"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "MU. - SH.",
+    "room": "GBLT1"
   },
   {
     "course_code": "LAWS212",
-    "exam_date": "2025-11-04",
-    "start_time": "09:30",
     "duration": "140 minutes",
-    "room": "RHLT1",
-    "student_split": "SE - Z"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "SI. - Z",
+    "room": "RHLT1"
   },
   {
     "course_code": "LAWS213",
-    "exam_date": "2025-11-03",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "GBLT3",
-    "student_split": "A - BENTLEY"
+    "student_split": "A - BO.",
+    "room": "RH105"
   },
   {
     "course_code": "LAWS213",
-    "exam_date": "2025-11-03",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "GBLT4",
-    "student_split": "BENTLEY-C - COL"
+    "student_split": "BR. - CL.",
+    "room": "GBLT4"
   },
   {
     "course_code": "LAWS213",
-    "exam_date": "2025-11-03",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "RHLT3",
-    "student_split": "CON - FE"
+    "student_split": "CO. - DO.",
+    "room": "GBLT3"
   },
   {
     "course_code": "LAWS213",
-    "exam_date": "2025-11-03",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "RHLT2",
-    "student_split": "FI - HOG"
+    "student_split": "DR. - GRIF.",
+    "room": "RHLT3"
   },
   {
     "course_code": "LAWS213",
-    "exam_date": "2025-11-03",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "GBLT2",
-    "student_split": "HON - NA"
+    "student_split": "GRIL. - JON.",
+    "room": "RHLT2"
   },
   {
     "course_code": "LAWS213",
-    "exam_date": "2025-11-03",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "GBLT1",
-    "student_split": "NE - SI"
+    "student_split": "JOY. - MOO.",
+    "room": "GBLT2"
   },
   {
     "course_code": "LAWS213",
-    "exam_date": "2025-11-03",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "RHLT1",
-    "student_split": "SM - Z"
+    "student_split": "MOR. - SIMA.",
+    "room": "GBLT1"
+  },
+  {
+    "course_code": "LAWS213",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-16",
+    "start_time": "09:30",
+    "student_split": "SIME. - Z",
+    "room": "RHLT1"
   },
   {
     "course_code": "LAWS214",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "GBLT3",
-    "student_split": "A - BHAN"
+    "duration": "85 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "A - BO.",
+    "room": "GBLT4"
   },
   {
     "course_code": "LAWS214",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "GBLT4",
-    "student_split": "BHAR - COLLING"
+    "duration": "85 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "BR. - COOKE, L",
+    "room": "GBLT3"
   },
   {
     "course_code": "LAWS214",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "RHLT3",
-    "student_split": "COLLINS - FA"
+    "duration": "85 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "COOKE, X - FE.",
+    "room": "RHLT3"
   },
   {
     "course_code": "LAWS214",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "RHLT2",
-    "student_split": "FE - HARD"
+    "duration": "85 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "FI. - JAC.",
+    "room": "RHLT2"
   },
   {
     "course_code": "LAWS214",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "GBLT2",
-    "student_split": "HARR - ME"
+    "duration": "85 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "JAM. - MCKAY, B",
+    "room": "GBLT2"
   },
   {
     "course_code": "LAWS214",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "GBLT1",
-    "student_split": "MI - SA"
+    "duration": "85 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "MCKAY, N - SA.",
+    "room": "GBLT1"
   },
   {
     "course_code": "LAWS214",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "130 minutes",
-    "room": "RHLT1",
-    "student_split": "SC - Z"
+    "duration": "85 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "SC. - Z",
+    "room": "RHLT1"
   },
   {
     "course_code": "LAWS301",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT3",
-    "student_split": "A - BEN"
+    "duration": "130 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "A - BL.",
+    "room": "GBLT3"
   },
   {
     "course_code": "LAWS301",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "RHLT3",
-    "student_split": "BER - DOR"
+    "duration": "130 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "BO. - DAVE.",
+    "room": "RHLT3"
   },
   {
     "course_code": "LAWS301",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "RHLT2",
-    "student_split": "DOU - GUA"
+    "duration": "130 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "DAVI. - GIBB.",
+    "room": "RHLT2"
   },
   {
     "course_code": "LAWS301",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT2",
-    "student_split": "GUE - MARC"
+    "duration": "130 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "GIBS. - MACD.",
+    "room": "GBLT2"
   },
   {
     "course_code": "LAWS301",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT1",
-    "student_split": "MARS - SH"
+    "duration": "130 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "MACK. - RE.",
+    "room": "GBLT1"
   },
   {
     "course_code": "LAWS301",
-    "exam_date": "2025-11-06",
-    "start_time": "14:30",
+    "duration": "130 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "RI. - Z",
+    "room": "RHLT1"
+  },
+  {
+    "course_code": "LAWS312",
     "duration": "120 minutes",
-    "room": "RHLT1",
-    "student_split": "SI - Z"
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "A - BIL.",
+    "room": "GBLT3"
+  },
+  {
+    "course_code": "LAWS312",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "BIS. - DAI.",
+    "room": "RHLT3"
+  },
+  {
+    "course_code": "LAWS312",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "DAN. - GE.",
+    "room": "RHLT2"
+  },
+  {
+    "course_code": "LAWS312",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "GI. - MAC.",
+    "room": "GBLT2"
+  },
+  {
+    "course_code": "LAWS312",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "MAL. - ROBERTSON",
+    "room": "GBLT1"
+  },
+  {
+    "course_code": "LAWS312",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-06",
+    "start_time": "14:30",
+    "student_split": "ROBERTSON-REIRI - Z",
+    "room": "RHLT1"
   },
   {
     "course_code": "LAWS322",
-    "exam_date": "2025-10-21",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "RHLT1",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "GBLT2"
   },
   {
-    "course_code": "LAWS329",
-    "exam_date": "2025-10-29",
-    "start_time": "09:30",
+    "course_code": "LAWS334",
     "duration": "120 minutes",
-    "room": "GBLT1",
-    "student_split": "All Students"
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "A - BOT.",
+    "room": "RHLT3"
   },
   {
-    "course_code": "LAWS352",
-    "exam_date": "2025-10-17",
+    "course_code": "LAWS334",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "BOY. - ED.",
+    "room": "RHLT2"
+  },
+  {
+    "course_code": "LAWS334",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "EI. - KH.",
+    "room": "GBLT2"
+  },
+  {
+    "course_code": "LAWS334",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "KI. - PRA.",
+    "room": "GBLT1"
+  },
+  {
+    "course_code": "LAWS334",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "PRE. - Z",
+    "room": "RHLT1"
+  },
+  {
+    "course_code": "LAWS340",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
     "start_time": "09:30",
+    "student_split": "A - KI.",
+    "room": "GBLT2"
+  },
+  {
+    "course_code": "LAWS340",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "KO - Z",
+    "room": "RHLT2"
+  },
+  {
+    "course_code": "LAWS355",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-13",
+    "start_time": "09:30",
+    "student_split": "A - H",
+    "room": "GBLT1"
+  },
+  {
+    "course_code": "LAWS355",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-13",
+    "start_time": "09:30",
+    "student_split": "J - Z",
+    "room": "GBLT2"
+  },
+  {
+    "course_code": "LAWS365",
     "duration": "60 minutes",
-    "room": "RHLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "LAWS356",
-    "exam_date": "2025-11-05",
+    "exam_date": "2026-06-16",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT1",
-    "student_split": "A - HA"
+    "student_split": "All students",
+    "room": "Online3"
   },
   {
-    "course_code": "LAWS356",
-    "exam_date": "2025-11-05",
+    "course_code": "LAWS380",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT2",
-    "student_split": "HE - Z"
+    "student_split": "All students",
+    "room": "Online3"
   },
   {
-    "course_code": "LAWS360",
-    "exam_date": "2025-11-07",
-    "start_time": "14:30",
+    "course_code": "LAWS382",
     "duration": "120 minutes",
-    "room": "GBLT1",
-    "student_split": "A - INM"
-  },
-  {
-    "course_code": "LAWS360",
-    "exam_date": "2025-11-07",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT2",
-    "student_split": "INW - Z"
-  },
-  {
-    "course_code": "LAWS370",
-    "exam_date": "2025-10-22",
+    "exam_date": "2026-06-08",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "GBLT3",
-    "student_split": "A - COUG"
+    "student_split": "All students",
+    "room": "Online3"
   },
   {
-    "course_code": "LAWS370",
-    "exam_date": "2025-10-22",
+    "course_code": "LAWS383",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "GBLT1",
-    "student_split": "COUL - LAN"
+    "student_split": "All students",
+    "room": "GBLT2"
   },
   {
-    "course_code": "LAWS370",
-    "exam_date": "2025-10-22",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "GBLT2",
-    "student_split": "LAT - Z"
-  },
-  {
-    "course_code": "LAWS375",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "RHLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "LAWS381",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "GBLT1",
-    "student_split": "A - HO"
-  },
-  {
-    "course_code": "LAWS381",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "GBLT2",
-    "student_split": "HU - Z"
-  },
-  {
-    "course_code": "LAWS391",
-    "exam_date": "2025-11-03",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "GBLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "LAWS393",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
+    "course_code": "LAWS385",
     "duration": "60 minutes",
-    "room": "GBLT1",
-    "student_split": "All Students"
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "Online3"
   },
   {
-    "course_code": "LSCI111",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
+    "course_code": "LAWS387",
     "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
+    "exam_date": "2026-06-15",
+    "start_time": "14:30",
+    "student_split": "A - JA.",
+    "room": "GBLT1"
+  },
+  {
+    "course_code": "LAWS387",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "14:30",
+    "student_split": "JE. - Z",
+    "room": "GBLT2"
+  },
+  {
+    "course_code": "LAWS395",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "09:30",
+    "student_split": "A - LIM",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "LAWS395",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "09:30",
+    "student_split": "LIS. - Z",
+    "room": "HULT323"
   },
   {
     "course_code": "MARK101",
-    "exam_date": "2025-10-22",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "A - CONN"
+    "exam_date": "2026-06-17",
+    "start_time": "09:30",
+    "student_split": "A- HALS.",
+    "room": "COLT122"
   },
   {
     "course_code": "MARK101",
-    "exam_date": "2025-10-22",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "CONW - LAM"
+    "exam_date": "2026-06-17",
+    "start_time": "09:30",
+    "student_split": "HALW. - MC.",
+    "room": "TTRLT1"
   },
   {
     "course_code": "MARK101",
-    "exam_date": "2025-10-22",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "LANG - POC"
-  },
-  {
-    "course_code": "MARK101",
-    "exam_date": "2025-10-22",
+    "exam_date": "2026-06-17",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "POW - Z"
+    "student_split": "ME. - Z",
+    "room": "HMLT205"
   },
   {
     "course_code": "MARK202",
-    "exam_date": "2025-11-07",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "A - KO"
+    "exam_date": "2026-06-18",
+    "start_time": "14:30",
+    "student_split": "A - LEE",
+    "room": "HMLT205"
   },
   {
     "course_code": "MARK202",
-    "exam_date": "2025-11-07",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "KR - Z"
-  },
-  {
-    "course_code": "MARK303",
-    "exam_date": "2025-10-22",
+    "exam_date": "2026-06-18",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "A - H"
+    "student_split": "LEF. - Z",
+    "room": "MCLT103"
   },
   {
-    "course_code": "MARK303",
-    "exam_date": "2025-10-22",
+    "course_code": "MARK302",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "I - Z"
+    "student_split": "A - GRIB.",
+    "room": "TTRLT1"
   },
   {
-    "course_code": "MARK316",
-    "exam_date": "2025-10-29",
-    "start_time": "09:30",
+    "course_code": "MARK302",
     "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "A - HA"
+    "exam_date": "2026-06-16",
+    "start_time": "14:30",
+    "student_split": "GRIE. - Z",
+    "room": "MCLT103"
   },
   {
-    "course_code": "MARK316",
-    "exam_date": "2025-10-29",
-    "start_time": "09:30",
+    "course_code": "MARK323",
     "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "HE - Z"
+    "exam_date": "2026-06-05",
+    "start_time": "14:30",
+    "student_split": "A - J",
+    "room": "MCLT103"
   },
   {
-    "course_code": "MATH142",
-    "exam_date": "2025-11-05",
-    "start_time": "09:30",
+    "course_code": "MARK323",
     "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "A - HON"
+    "exam_date": "2026-06-05",
+    "start_time": "14:30",
+    "student_split": "K - Z",
+    "room": "KKLT303"
   },
   {
-    "course_code": "MATH142",
-    "exam_date": "2025-11-05",
-    "start_time": "09:30",
+    "course_code": "MARK532",
     "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "HOU - Z"
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MYLT220"
   },
   {
-    "course_code": "MATH151",
-    "exam_date": "2025-11-03",
-    "start_time": "09:30",
+    "course_code": "MATH132",
     "duration": "180 minutes",
-    "room": "MCLT103",
-    "student_split": "A - KORB, A"
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "A - LA.",
+    "room": "KKLT303"
   },
   {
-    "course_code": "MATH151",
-    "exam_date": "2025-11-03",
-    "start_time": "09:30",
+    "course_code": "MATH132",
     "duration": "180 minutes",
-    "room": "MCLT101",
-    "student_split": "KORB, S - Z"
-  },
-  {
-    "course_code": "MATH177",
-    "exam_date": "2025-10-29",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "MATH243",
-    "exam_date": "2025-11-03",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "MATH251",
-    "exam_date": "2025-10-30",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "MATH304",
-    "exam_date": "2025-10-24",
+    "exam_date": "2026-06-15",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
+    "student_split": "LE. - Z",
+    "room": "HMLT205"
   },
   {
-    "course_code": "MATH321",
-    "exam_date": "2025-10-21",
+    "course_code": "MATH141",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-18",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "KKLT303"
   },
   {
-    "course_code": "MATH324",
-    "exam_date": "2025-11-04",
+    "course_code": "MATH161",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-13",
     "start_time": "09:30",
-    "duration": "90 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
+    "student_split": "A - J",
+    "room": "TTRLT1"
+  },
+  {
+    "course_code": "MATH161",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-13",
+    "start_time": "09:30",
+    "student_split": "K - Z",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "MATH212",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "MATH244",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "MATH261",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "A - HOL.",
+    "room": "MYLT220"
+  },
+  {
+    "course_code": "MATH261",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "HOR. - Z",
+    "room": "MYLT101"
+  },
+  {
+    "course_code": "MATH277",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "MY501"
+  },
+  {
+    "course_code": "MATH301",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MYLT220"
+  },
+  {
+    "course_code": "MATH311",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HULT220"
+  },
+  {
+    "course_code": "MATH318",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT205"
   },
   {
     "course_code": "MATH361",
-    "exam_date": "2025-10-29",
-    "start_time": "09:30",
     "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "All Students"
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MY501"
   },
   {
-    "course_code": "MATH440",
-    "exam_date": "2025-10-21",
+    "course_code": "MATH377",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-16",
     "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "MATH434",
     "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "All Students"
+    "exam_date": "2026-06-15",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT103"
   },
   {
-    "course_code": "MATH460",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
+    "course_code": "MGMT202",
     "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "A - CAI.",
+    "room": "RHLT3"
   },
   {
-    "course_code": "MMPA506",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "MYLT220",
-    "student_split": "A - EI"
+    "course_code": "MGMT202",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "CAM. - G",
+    "room": "RHLT2"
   },
   {
-    "course_code": "MMPA506",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "HMLT002",
-    "student_split": "EIK - L"
+    "course_code": "MGMT202",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "H - MARS.",
+    "room": "GBLT2"
   },
   {
-    "course_code": "MMPA506",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "COLT122",
-    "student_split": "M - Z"
+    "course_code": "MGMT202",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "MART. - RAI.",
+    "room": "GBLT1"
   },
   {
-    "course_code": "MMPA510",
-    "exam_date": "2025-10-29",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "HMLT002",
-    "student_split": "A - HE, B"
+    "course_code": "MGMT202",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
+    "start_time": "14:30",
+    "student_split": "RAM. - Z",
+    "room": "RHLT1"
   },
   {
-    "course_code": "MMPA510",
-    "exam_date": "2025-10-29",
+    "course_code": "MMPA501",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "HMLT205",
-    "student_split": "HE, T - Z"
+    "student_split": "A - LIU, Q",
+    "room": "HMLT002"
   },
   {
-    "course_code": "MMPA512",
-    "exam_date": "2025-10-21",
+    "course_code": "MMPA501",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "KKLT301",
-    "student_split": "A - KA"
+    "student_split": "LIU, W - Z",
+    "room": "HMLT104"
   },
   {
-    "course_code": "MMPA512",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "MMPA502",
     "duration": "180 minutes",
-    "room": "HULT323",
-    "student_split": "KH - Z"
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "A - LIU, Q",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "MMPA502",
+    "duration": "180 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "09:30",
+    "student_split": "LIU, W - Z",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "MMPA503",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "MMPA504",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "RHLT1"
+  },
+  {
+    "course_code": "MMPA508",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "A - CHA.",
+    "room": "KK217"
+  },
+  {
+    "course_code": "MMPA508",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "CHE. - GAN.",
+    "room": "KK218"
+  },
+  {
+    "course_code": "MMPA508",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "GAO - JA.",
+    "room": "KK216"
+  },
+  {
+    "course_code": "MMPA508",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "JO. - MD.",
+    "room": "RHG01"
+  },
+  {
+    "course_code": "MMPA508",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "MI. - SA.",
+    "room": "MY201"
+  },
+  {
+    "course_code": "MMPA508",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "09:30",
+    "student_split": "SH. - Z",
+    "room": "RH101"
+  },
+  {
+    "course_code": "MMPA509",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "14:30",
+    "student_split": "A - I",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "MMPA509",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
+    "start_time": "14:30",
+    "student_split": "J - Z",
+    "room": "HMLT002"
   },
   {
     "course_code": "MMPA513",
-    "exam_date": "2025-11-03",
-    "start_time": "09:30",
     "duration": "180 minutes",
-    "room": "RHG01",
-    "student_split": "A - HS"
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "A - H",
+    "room": "RHG01"
   },
   {
     "course_code": "MMPA513",
-    "exam_date": "2025-11-03",
-    "start_time": "09:30",
     "duration": "180 minutes",
-    "room": "RH101",
-    "student_split": "HW - Z"
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "I - Z",
+    "room": "RH101"
   },
   {
-    "course_code": "MMPA517",
-    "exam_date": "2025-10-22",
+    "course_code": "NWEN241",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
+    "student_split": "A - HAL.",
+    "room": "MCLT103"
   },
   {
-    "course_code": "NWEN243",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "NWEN241",
     "duration": "120 minutes",
-    "room": "HMLT001",
-    "student_split": "A - BL"
+    "exam_date": "2026-06-19",
+    "start_time": "14:30",
+    "student_split": "HAN. - OF.",
+    "room": "MCLT101"
   },
   {
-    "course_code": "NWEN243",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "NWEN241",
     "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "BO - HE"
+    "exam_date": "2026-06-19",
+    "start_time": "14:30",
+    "student_split": "OL. - Z",
+    "room": "HMLT205"
   },
   {
-    "course_code": "NWEN243",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "NWEN303",
     "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "HO - MARSH"
+    "exam_date": "2026-06-15",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT205"
   },
   {
-    "course_code": "NWEN243",
-    "exam_date": "2025-10-21",
-    "start_time": "09:30",
+    "course_code": "PHYS101",
     "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "MARST - Z"
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MCLT101"
   },
   {
-    "course_code": "PHIL264",
-    "exam_date": "2025-10-23",
+    "course_code": "PHYS145",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
     "start_time": "09:30",
+    "student_split": "All students",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "PHYS243",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "MY501"
+  },
+  {
+    "course_code": "PHYS305",
     "duration": "180 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "PHPE403",
-    "exam_date": "2025-11-04",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MYLT220",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "PHYS142",
-    "exam_date": "2025-11-01",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "A - G"
-  },
-  {
-    "course_code": "PHYS142",
-    "exam_date": "2025-11-01",
-    "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "KKLT301",
-    "student_split": "H - Z"
-  },
-  {
-    "course_code": "PHYS241",
-    "exam_date": "2025-10-28",
+    "exam_date": "2026-06-06",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT002",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "HMLT002"
   },
   {
-    "course_code": "PHYS242",
-    "exam_date": "2025-10-24",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "PHYS304",
-    "exam_date": "2025-10-18",
-    "start_time": "09:30",
+    "course_code": "PHYS307",
     "duration": "180 minutes",
-    "room": "MYLT220",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "PHYS412",
-    "exam_date": "2025-10-28",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT001",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "MCLT102"
   },
   {
-    "course_code": "PHYS414",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
+    "course_code": "PHYS411",
     "duration": "120 minutes",
-    "room": "HMLT001",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "PHYS417",
-    "exam_date": "2025-10-23",
+    "exam_date": "2026-06-17",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "Online Delivery",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "KKLT301"
   },
   {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
+    "course_code": "PHYS413",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-11",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HULT119",
-    "student_split": "A - BARRE"
+    "student_split": "All students",
+    "room": "HMLT103"
   },
   {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
+    "course_code": "PHYS415",
     "duration": "120 minutes",
-    "room": "HULT220",
-    "student_split": "BARRI - BRAS"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT002",
-    "student_split": "BRAU - CHANDL"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "CHANDR - DI"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "DO - F"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT301",
-    "student_split": "G - HAR"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "HAW - JONES, L"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "JONES, M - LOC"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "LOG - MOS"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "MOU - RO"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "RU - TOK"
-  },
-  {
-    "course_code": "PSYC122",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "TON - Z"
-  },
-  {
-    "course_code": "PSYC242",
-    "exam_date": "2025-10-31",
+    "exam_date": "2026-06-09",
     "start_time": "14:30",
+    "student_split": "All students",
+    "room": "MYLT102"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "A - AU.",
+    "room": "KK202"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "B - BOO.",
+    "room": "HULT220"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "BOR. - CAMERON, F",
+    "room": "HULT119"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "CAMERON, M - COLLIE.",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "COLLIS - DOU.",
+    "room": "MY501"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "DOW. - FON.",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "FOO. - GO.",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "GR. - HOP.",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "HOR. - KEI.",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "KEL. - LOP.",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "LOV. - MON.",
+    "room": "TTRLT1"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "MOO. - PETERS, M",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "PETERS, T - SC.",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "SE. - U",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "PSYC121",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "14:30",
+    "student_split": "V - Z",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "PSYC232",
     "duration": "50 minutes",
-    "room": "MCLT101",
-    "student_split": "A - LEA"
-  },
-  {
-    "course_code": "PSYC242",
-    "exam_date": "2025-10-31",
+    "exam_date": "2026-06-09",
     "start_time": "14:30",
+    "student_split": "A - LI.",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "PSYC232",
     "duration": "50 minutes",
-    "room": "MCLT103",
-    "student_split": "LED - Z"
+    "exam_date": "2026-06-09",
+    "start_time": "14:30",
+    "student_split": "LO - Z",
+    "room": "TTRLT1"
   },
   {
-    "course_code": "PSYC327",
-    "exam_date": "2025-10-29",
+    "course_code": "PSYC301",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-10",
     "start_time": "09:30",
+    "student_split": "A - GO.",
+    "room": "HMLT002"
+  },
+  {
+    "course_code": "PSYC301",
+    "duration": "70 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "GR. - Z",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "PSYC332",
     "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "A - Ki"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "A - DAN.",
+    "room": "HMLT104"
   },
   {
-    "course_code": "PSYC327",
-    "exam_date": "2025-10-29",
-    "start_time": "09:30",
+    "course_code": "PSYC332",
     "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "KO - Z"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "DAV. - LYA.",
+    "room": "KKLT303"
   },
   {
-    "course_code": "PSYC404",
-    "exam_date": "2025-10-30",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "MCLT102",
-    "student_split": "All Students"
+    "course_code": "PSYC332",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "LYN. - Z",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "PSYC333",
+    "duration": "45 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "A - HUL.",
+    "room": "HULT119"
+  },
+  {
+    "course_code": "PSYC333",
+    "duration": "45 minutes",
+    "exam_date": "2026-06-08",
+    "start_time": "14:30",
+    "student_split": "HUM. - Z",
+    "room": "HULT220"
   },
   {
     "course_code": "PSYC451",
-    "exam_date": "2025-10-31",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HULT220"
   },
   {
     "course_code": "PUBL203",
-    "exam_date": "2025-10-23",
-    "start_time": "14:30",
     "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
+    "exam_date": "2026-06-15",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "KKLT303"
   },
   {
     "course_code": "PUBL209",
-    "exam_date": "2025-10-23",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "KKLT303"
   },
   {
-    "course_code": "QUAN203",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
+    "course_code": "PUBL303",
     "duration": "120 minutes",
-    "room": "HMLT103",
-    "student_split": "A - HA"
-  },
-  {
-    "course_code": "QUAN203",
-    "exam_date": "2025-10-20",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "HE - Z"
-  },
-  {
-    "course_code": "RESE413",
-    "exam_date": "2025-10-23",
+    "exam_date": "2026-06-13",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "HMLT002"
   },
   {
-    "course_code": "SAMO111",
-    "exam_date": "2025-11-05",
+    "course_code": "QUAN201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "All Students"
+    "student_split": "A - K",
+    "room": "GBLT1"
   },
   {
-    "course_code": "SPCE102",
-    "exam_date": "2025-11-06",
+    "course_code": "QUAN201",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "All Students"
+    "student_split": "L - Z",
+    "room": "RHLT1"
   },
   {
-    "course_code": "SPCE201",
-    "exam_date": "2025-10-22",
+    "course_code": "SPCE101",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "All Students"
+    "student_split": "A - HI.",
+    "room": "HULT119"
   },
   {
-    "course_code": "STAT193",
-    "exam_date": "2025-10-17",
+    "course_code": "SPCE101",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-17",
     "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "A - BROA"
+    "student_split": "HO. - Z",
+    "room": "HULT220"
   },
   {
-    "course_code": "STAT193",
-    "exam_date": "2025-10-17",
-    "start_time": "09:30",
+    "course_code": "SPCE301",
     "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "BROM - C"
-  },
-  {
-    "course_code": "STAT193",
-    "exam_date": "2025-10-17",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "D - GL"
-  },
-  {
-    "course_code": "STAT193",
-    "exam_date": "2025-10-17",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "GO - LAWR"
-  },
-  {
-    "course_code": "STAT193",
-    "exam_date": "2025-10-17",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT101",
-    "student_split": "LAWS - O"
-  },
-  {
-    "course_code": "STAT193",
-    "exam_date": "2025-10-17",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "P - SOR"
-  },
-  {
-    "course_code": "STAT193",
-    "exam_date": "2025-10-17",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "SOU - Z"
-  },
-  {
-    "course_code": "STAT293",
-    "exam_date": "2025-10-23",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "STAT335",
-    "exam_date": "2025-10-24",
+    "exam_date": "2026-06-15",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "MYLT220"
   },
   {
-    "course_code": "STAT393",
-    "exam_date": "2025-10-20",
-    "start_time": "14:30",
+    "course_code": "SPCE360",
     "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "All Students"
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HULT220"
   },
   {
-    "course_code": "STAT432",
-    "exam_date": "2025-10-21",
-    "start_time": "14:30",
+    "course_code": "STAT193",
     "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "A - BL.",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "STAT193",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "BO. - C",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "STAT193",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "D - GE.",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "STAT193",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "GI.- IL.",
+    "room": "TTRLT1"
+  },
+  {
+    "course_code": "STAT193",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "IN. - MAD.",
+    "room": "KKLT303"
+  },
+  {
+    "course_code": "STAT193",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "MAN. - POH.",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "STAT193",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "POL. - TAKA.",
+    "room": "HMLT205"
+  },
+  {
+    "course_code": "STAT193",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "TAK-H. - ZI",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "STAT292",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "14:30",
+    "student_split": "A - BUR.",
+    "room": "RHLT3"
+  },
+  {
+    "course_code": "STAT292",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "14:30",
+    "student_split": "BUS. - FOS.",
+    "room": "RHLT2"
+  },
+  {
+    "course_code": "STAT292",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "14:30",
+    "student_split": "FOU. - LEE.",
+    "room": "GBLT2"
+  },
+  {
+    "course_code": "STAT292",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "14:30",
+    "student_split": "LEI - ROS.",
+    "room": "GBLT1"
+  },
+  {
+    "course_code": "STAT292",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "14:30",
+    "student_split": "ROT. - ZHOU",
+    "room": "RHLT1"
+  },
+  {
+    "course_code": "STAT391",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "STAT395",
+    "duration": "90 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MCLT102"
   },
   {
     "course_code": "STAT433",
-    "exam_date": "2025-10-23",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "LBLT118"
+  },
+  {
+    "course_code": "STAT440",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-09",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "LBLT118",
-    "student_split": "All Students"
+    "student_split": "All students",
+    "room": "MY501"
   },
   {
-    "course_code": "STAT438",
-    "exam_date": "2025-10-17",
+    "course_code": "STAT452",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-05",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "RHLT3"
+  },
+  {
+    "course_code": "STAT455",
+    "duration": "90 minutes",
+    "exam_date": "2026-06-09",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "SWEN221",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
     "start_time": "14:30",
+    "student_split": "A - KO.",
+    "room": "MCLT103"
+  },
+  {
+    "course_code": "SWEN221",
     "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "SWEN225",
-    "exam_date": "2025-10-29",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "HULT323",
-    "student_split": "A - KEA"
-  },
-  {
-    "course_code": "SWEN225",
-    "exam_date": "2025-10-29",
-    "start_time": "09:30",
-    "duration": "180 minutes",
-    "room": "KKLT303",
-    "student_split": "KEN - Z"
-  },
-  {
-    "course_code": "SWEN301",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT301",
-    "student_split": "A - LE"
-  },
-  {
-    "course_code": "SWEN301",
-    "exam_date": "2025-10-28",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HULT323",
-    "student_split": "LI - Z"
-  },
-  {
-    "course_code": "SWEN428",
-    "exam_date": "2025-11-03",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "SWEN432",
-    "exam_date": "2025-10-21",
+    "exam_date": "2026-06-15",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "COLT122",
-    "student_split": "All Students"
+    "student_split": "KU. - Z",
+    "room": "MCLT101"
   },
   {
-    "course_code": "SWEN438",
-    "exam_date": "2025-11-01",
-    "start_time": "09:30",
+    "course_code": "SWEN304",
     "duration": "120 minutes",
-    "room": "TTRLT1",
-    "student_split": "All Students"
-  },
-  {
-    "course_code": "TAXN201",
-    "exam_date": "2025-11-01",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT104",
-    "student_split": "A - DOM"
-  },
-  {
-    "course_code": "TAXN201",
-    "exam_date": "2025-11-01",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT301",
-    "student_split": "DOR - KIL"
-  },
-  {
-    "course_code": "TAXN201",
-    "exam_date": "2025-11-01",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "KKLT303",
-    "student_split": "KIM - PATEL, D"
-  },
-  {
-    "course_code": "TAXN201",
-    "exam_date": "2025-11-01",
-    "start_time": "09:30",
-    "duration": "120 minutes",
-    "room": "HMLT205",
-    "student_split": "PATEL, S - Z"
-  },
-  {
-    "course_code": "TOUR101",
-    "exam_date": "2025-11-04",
+    "exam_date": "2026-06-12",
     "start_time": "14:30",
-    "duration": "120 minutes",
-    "room": "MCLT102",
-    "student_split": "A - G"
+    "student_split": "A - LAL.",
+    "room": "COLT122"
   },
   {
-    "course_code": "TOUR101",
-    "exam_date": "2025-11-04",
-    "start_time": "14:30",
+    "course_code": "SWEN304",
     "duration": "120 minutes",
-    "room": "MCLT103",
-    "student_split": "H - Z"
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "LAN. - Z",
+    "room": "HULT323"
+  },
+  {
+    "course_code": "SWEN326",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "14:30",
+    "student_split": "A - G",
+    "room": "MCLT102"
+  },
+  {
+    "course_code": "SWEN326",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-18",
+    "start_time": "14:30",
+    "student_split": "H - Z",
+    "room": "MCLT101"
+  },
+  {
+    "course_code": "SWEN426",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-19",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "SWEN435",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-12",
+    "start_time": "14:30",
+    "student_split": "All students",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "TAXN301",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "A- HIC.",
+    "room": "HMLT104"
+  },
+  {
+    "course_code": "TAXN301",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "HIL. - PAN.",
+    "room": "COLT122"
+  },
+  {
+    "course_code": "TAXN301",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-10",
+    "start_time": "09:30",
+    "student_split": "PAT. - Z",
+    "room": "KKLT301"
+  },
+  {
+    "course_code": "TOUR203",
+    "duration": "120 minutes",
+    "exam_date": "2026-06-15",
+    "start_time": "09:30",
+    "student_split": "All students",
+    "room": "HULT119"
   }
 ]
